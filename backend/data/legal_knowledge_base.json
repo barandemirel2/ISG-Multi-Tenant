@@ -1,0 +1,167 @@
+﻿{
+  "version": "2026-08-24",
+  "source": "v2 hardcoded + Q10 web search dogrulamasi (2026-08-24)",
+  "tehlike_sinifi_default": "tehlikeli",
+  "calisan_sayisi_default": 20,
+  "kanunlar": {
+    "6331": {
+      "kanun_adi": "6331 Is Sagligi ve Guvenligi Kanunu",
+      "resmi_gazete": "20.06.2012",
+      "maddeler": {
+        "4": {"konu": "Genel isveren yukumlulugu", "anahtar": ["isveren", "genel", "yukumluluk"], "ipc_madde": "26/1-a", "tutar_2026": "44.443 - 133.329 TL"},
+        "5": {"konu": "Risk degerlendirmesi, kontrol, olcum", "anahtar": ["risk", "kontrol", "olcum"], "ipc_madde": "26/1-c", "tutar_2026": "66.725 - 200.175 TL (ilk); 100.119 - 300.357 TL/ay (devam)"},
+        "6": {"konu": "ISG hizmetleri (uzman, hekim, DSP)", "anahtar": ["uzman", "hekim", "hizmet", "isg"], "ipc_madde": "26/1-b", "tutar_2026": "111.263 - 333.789 TL/ay"},
+        "10": {"konu": "Risk degerlendirmesi (guncel)", "anahtar": ["risk", "degerlendirme", "rd"], "ipc_madde": "26/1-c", "tutar_2026": "66.725 - 200.175 TL (ilk); 100.119 - 300.357 TL/ay (devam)"},
+        "11": {"konu": "Acil durum, yangin, dogal afet", "anahtar": ["acil", "yangin", "tahliye", "toplanma"], "ipc_madde": "26/1-d", "tutar_2026": "22.194 - 66.663 TL"},
+        "12": {"konu": "Ilkyardim", "anahtar": ["ilkyardim", "saglik", "sedye"], "ipc_madde": "26/1-d", "tutar_2026": "22.194 - 66.663 TL"},
+        "14": {"konu": "Is kazasi ve meslek hastaligi bildirimi", "anahtar": ["kaza", "bildirim", "meslek", "hastalik"], "ipc_madde": "26/1-e", "tutar_2026": "44.443 - 133.329 TL"},
+        "15": {"konu": "Saglik gozetimi", "anahtar": ["saglik", "muayene", "gozetim"], "ipc_madde": "26/1-f", "tutar_2026": "22.194 TL/calisan"},
+        "16": {"konu": "Calisanlarin bilgilendirilmesi", "anahtar": ["bilgilendirme", "calisan"], "ipc_madde": "26/1-g", "tutar_2026": "22.194 TL/calisan"},
+        "17": {"konu": "Calisanlarin egitimi", "anahtar": ["egitim", "calisan"], "ipc_madde": "26/1-g", "tutar_2026": "8.980 TL/calisan"},
+        "18": {"konu": "Calisan haklari ve temsilciler", "anahtar": ["haklar", "temsilci"], "ipc_madde": "26/1-h", "tutar_2026": "22.194 - 66.582 TL"},
+        "20": {"konu": "Calisan temsilcisi", "anahtar": ["temsilci", "calisan"], "ipc_madde": "26/1-h", "tutar_2026": "22.194 - 66.582 TL"},
+        "22": {"konu": "ISG kurulu", "anahtar": ["kurul", "toplanti"], "ipc_madde": "26/1-i", "tutar_2026": "22.194 - 66.582 TL/ay"},
+        "24": {"konu": "Defter tutma (eski)", "anahtar": ["defter"], "ipc_madde": "26/1-a", "tutar_2026": "44.443 - 133.329 TL"},
+        "25": {"konu": "Is durdurma, isyeri kapatma", "anahtar": ["durdurma", "kapatma"], "ipc_madde": "26/1-a", "tutar_2026": "44.443 - 133.329 TL"},
+        "26": {"konu": "Idari para cezalari", "anahtar": ["idari", "para", "ceza"], "ipc_madde": "26 (genel)", "tutar_2026": "Farkli dilimler"},
+        "30": {"konu": "Onayli defter", "anahtar": ["onayli", "defter"], "ipc_madde": "26/1-a", "tutar_2026": "44.443 - 133.329 TL"}
+      }
+    },
+    "5996": {
+      "kanun_adi": "5996 Veteriner Hizmetleri, Bitki Sagligi, Gida ve Yem Kanunu",
+      "resmi_gazete": "13.06.2010",
+      "maddeler": {
+        "21": {"konu": "Hijyen egitimi", "anahtar": ["hijyen", "egitim", "belge"], "ipc_madde": "5996/41", "tutar_2026": "1.000 - 15.000 TL + TCK 185"},
+        "29": {"konu": "Gida hijyeni", "anahtar": ["gida", "hijyen", "temas", "bulas"], "ipc_madde": "5996/41", "tutar_2026": "1.000 - 15.000 TL + TCK 185"},
+        "36": {"konu": "Gida guvenligi ihlal cezasi (eski)", "anahtar": ["gida", "guvenlik", "ihlal"], "ipc_madde": "5996/36", "tutar_2026": "10.000 - 50.000 TL"},
+        "41": {"konu": "Guvenli olmayan gida - idari", "anahtar": ["gida", "guvensiz", "idari"], "ipc_madde": "5996/41", "tutar_2026": "1.000 - 15.000 TL + TCK 185"},
+        "185": {"konu": "Guvenli olmayan gida - cezai", "anahtar": ["gida", "guvensiz", "hapis"], "ipc_madde": "5996/185", "tutar_2026": "1-5 yil hapis + 1000-5000 gun adli para"}
+      }
+    },
+    "4857": {
+      "kanun_adi": "4857 Is Kanunu",
+      "maddeler": {
+        "18": {"konu": "Calisma kosullari bildirimi", "anahtar": ["calisma", "kosul", "bildirim"], "ipc_madde": "-", "tutar_2026": "-"},
+        "25": {"konu": "Is sozlesmesi feshi", "anahtar": ["fesih", "sozlesme"], "ipc_madde": "-", "tutar_2026": "-"}
+      }
+    },
+    "5510": {
+      "kanun_adi": "5510 Sosyal Sigortalar ve Genel Saglik Sigortasi Kanunu",
+      "maddeler": {
+        "13": {"konu": "Is kazasi tanimi", "anahtar": ["kaza", "tanim"], "ipc_madde": "-", "tutar_2026": "-"},
+        "14": {"konu": "Meslek hastaligi tanimi", "anahtar": ["meslek", "hastalik"], "ipc_madde": "-", "tutar_2026": "-"},
+        "21": {"konu": "SGK rucu hakki (isverene)", "anahtar": ["rucu", "tazminat"], "ipc_madde": "-", "tutar_2026": "-"},
+        "76": {"konu": "Isveren yukumlulukleri", "anahtar": ["isveren", "yukumluluk"], "ipc_madde": "-", "tutar_2026": "-"},
+        "102": {
+          "konu": "SGK'ya bildirim/belge ibraz etmeme IPC (Q10 web search dogrulamasi 2026-08-24)",
+          "anahtar": ["bildirim", "SGK", "asgari ucret", "ise giris", "defter", "APHB", "prim", "sigortasiz"],
+          "ipc_madde": "5510/102",
+          "tutar_2026": "Ise giris gec: 33.030 TL/sigortali (1x asgari ucret); Denetim tespiti: 66.060 TL/sigortali (2x); Tekrar 1yil: 165.150 TL/sigortali (5x); Defter ibraz etmeme: 99.090-396.360 TL",
+          "kaynak_url": "https://datassist.com/blog/sgk-sigorta-cezalari-idari-para-cezalari-ve-onleme-yontemleri/",
+          "kaynak_kanun": "Brut asgari ucret 2026: 33.030 TL (asgari ucrete endeksli)"
+        }
+      }
+    },
+    "BYKHY": {
+      "kanun_adi": "Binalarin Yangindan Korunmasi Hakkinda Yonetmelik",
+      "maddeler": {
+        "49": {"konu": "Idari yaptirim (5.000-50.000 TL)", "anahtar": ["yangin", "bina", "KORUMA"], "ipc_madde": "BYKHY/49", "tutar_2026": "5.000 - 50.000 TL"}
+      }
+    },
+    "TCK": {
+      "kanun_adi": "5237 Turk Ceza Kanunu",
+      "maddeler": {
+        "85": {"konu": "Taksirle olum (2-6 yil hapis)", "anahtar": ["taksirle", "olum", "hapis"], "ipc_madde": "-", "tutar_2026": "2-6 yil hapis", "severity": "high"},
+        "89": {"konu": "Taksirle yaralama (3 ay-3 yil)", "anahtar": ["taksirle", "yaralama", "hapis"], "ipc_madde": "-", "tutar_2026": "3 ay-3 yil hapis", "severity": "medium"},
+        "185": {"konu": "Guvenli olmayan gida (1-5 yil hapis + adli para)", "anahtar": ["gida", "guvensiz", "hapis", "adli"], "ipc_madde": "-", "tutar_2026": "1-5 yil hapis + 1000-5000 gun adli para", "severity": "high"}
+      }
+    },
+    "TBK": {
+      "kanun_adi": "6098 Turk Borclar Kanunu",
+      "maddeler": {
+        "417": {"konu": "Isverenin koruma yukumlulugu (tazminat)", "anahtar": ["isveren", "koruma", "tazminat"], "ipc_madde": "-", "tutar_2026": "Tazminat (somut olaya gore)"},
+        "418": {"konu": "Sozlesmenin gecersizligi (isci lehine)", "anahtar": ["sozlesme", "gecersiz"], "ipc_madde": "-", "tutar_2026": "-"}
+      }
+    }
+  },
+  "yonetmelikler": {
+    "KKD": {
+      "kanun_adi": "Kisisel Koruyucu Donanimlarin Isyerlerinde Kullanilmasi Hakkinda Yonetmelik",
+      "anahtar": ["KKD", "eldiven", "siperlik", "maske", "gozluk", "koruyucu", "donanim"],
+      "ilgili_md": "6",
+      "iliskili_kanun": "6331"
+    },
+    "Elektrik": {
+      "kanun_adi": "Elektrik Ic Tesisleri Yonetmeligi",
+      "anahtar": ["elektrik", "kablo", "iletken", "yalitim", "priz", "panolu", "salter", "topraklama", "kacak akim", "jenerator", "ups"],
+      "ilgili_md": "35, 41, 56, 57",
+      "iliskili_kanun": "6331"
+    },
+    "Kimyasal": {
+      "kanun_adi": "Kimyasal Maddelerle Calismalarda Saglik ve Guvenlik Onlemleri Hakkinda Yonetmelik",
+      "anahtar": ["kimyasal", "asit", "baz", "solvent", "deterjan", "yag temizlik"],
+      "ilgili_md": "8",
+      "iliskili_kanun": "6331"
+    },
+    "Hijyen": {
+      "kanun_adi": "Hijyen Egitimi Yonetmeligi (RG 5.5.2014)",
+      "anahtar": ["hijyen", "egitim", "belge", "gida iscisi"],
+      "ilgili_md": "5, 6",
+      "iliskili_kanun": "5996"
+    },
+    "GidaHijyeni": {
+      "kanun_adi": "Turk Gida Kodeksi Gida Hijyeni Yonetmeligi (RG 17.12.2011)",
+      "anahtar": ["gida", "hijyen", "temas yuzey", "capraz bulas", "mutfak", "yiyecek", "icecek"],
+      "ilgili_md": "Ek-II (genel)",
+      "iliskili_kanun": "5996"
+    },
+    "AcilDurum": {
+      "kanun_adi": "Isyerlerinde Acil Durumlar Hakkinda Yonetmelik",
+      "anahtar": ["acil", "tahliye", "toplanma", "deprem", "tatbikat"],
+      "ilgili_md": "5, 6, 7",
+      "iliskili_kanun": "6331"
+    },
+    "Ilkyardim": {
+      "kanun_adi": "Ilkyardim Yonetmeligi",
+      "anahtar": ["ilkyardim", "saglik", "sedye", "tibbi malzeme"],
+      "ilgili_md": "5, 6",
+      "iliskili_kanun": "6331"
+    },
+    "ElleTasima": {
+      "kanun_adi": "Elle Tasima Isleri Yonetmeligi",
+      "anahtar": ["tasima", "kaldirma", "istif", "yuk"],
+      "ilgili_md": "5, 6",
+      "iliskili_kanun": "6331"
+    },
+    "RiskDeg": {
+      "kanun_adi": "Is Sagligi ve Guvenligi Risk Degerlendirmesi Yonetmeligi",
+      "anahtar": ["risk", "degerlendirme", "tehlike"],
+      "ilgili_md": "8, 9, 10",
+      "iliskili_kanun": "6331"
+    },
+    "IsEkipmanlari": {
+      "kanun_adi": "Is Ekipmanlarinin Kullaniminda Saglik ve Guvenlik Sartlari Yonetmeligi",
+      "anahtar": ["ekipman", "makine", "asansor", "vinc", "forklift", "transpalet"],
+      "ilgili_md": "Ek-II",
+      "iliskili_kanun": "6331"
+    },
+    "IsGuvBina": {
+      "kanun_adi": "Isyeri Bina ve Eklentilerinde Alinacak Saglik ve Guvenlik Onlemlerine Iliskin Yonetmelik",
+      "anahtar": ["bina", "zemin", "aydinlatma", "kayma", "dusme"],
+      "ilgili_md": "Ek-I (md. 14, 18)",
+      "iliskili_kanun": "6331"
+    },
+    "IsgHizmet": {
+      "kanun_adi": "Is Sagligi ve Guvenligi Hizmetleri Yonetmeligi",
+      "anahtar": ["ISG hizmet", "uzman", "hekim", "calisan temsilcisi", "kurul"],
+      "ilgili_md": "7, 8",
+      "iliskili_kanun": "6331"
+    },
+    "IsKaza": {
+      "kanun_adi": "Is Kazalari ve Meslek Hastaliklari Yonetmeligi",
+      "anahtar": ["kaza", "bildirim", "meslek hastaligi", "ramak kala"],
+      "ilgili_md": "genel",
+      "iliskili_kanun": "5510"
+    }
+  }
+}

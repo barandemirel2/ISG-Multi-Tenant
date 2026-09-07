@@ -1,0 +1,125 @@
+{
+  "theme_and_identity": {
+    "archetype": "Swiss & High-Contrast (Corporate Audit)",
+    "vibe": "Objective, rigid, highly functional, data-dense.",
+    "rationale": "An occupational health & safety (İSG) risk analysis tool for a major restaurant chain needs absolute clarity. The UI must strip away decorative elements so the safety data and risk scores remain the sole focus."
+  },
+  "typography": {
+    "fonts": {
+      "headings": "Chivo",
+      "body": "IBM Plex Sans",
+      "mono": "JetBrains Mono"
+    },
+    "scale": {
+      "h1": "text-3xl sm:text-4xl tracking-tight font-black",
+      "h2": "text-2xl sm:text-3xl tracking-tight font-bold",
+      "h3": "text-xl font-semibold",
+      "body": "text-sm sm:text-base leading-relaxed",
+      "data": "text-sm font-medium tabular-nums"
+    },
+    "rules": [
+      "Avoid 'Inter' for headings. Use Chivo for a structured corporate feel.",
+      "Use tabular-nums for all risk scores and severity metrics so digits align perfectly in columns.",
+      "Labels should be uppercase, tracking-[0.05em], text-xs."
+    ]
+  },
+  "colors": {
+    "strategy": "Function over decoration. 95% of the UI should be monochrome. Color is exclusively used to indicate risk levels and primary actions.",
+    "base": {
+      "background": "#FAFAFA",
+      "surface": "#FFFFFF",
+      "border": "#E4E4E7",
+      "text_primary": "#09090B",
+      "text_secondary": "#52525B"
+    },
+    "risk_semantics": {
+      "kabul_edilemez": {
+        "bg": "bg-red-50",
+        "border": "border-red-200",
+        "text": "text-red-700",
+        "badge": "bg-red-600 text-white"
+      },
+      "dikkate_deger": {
+        "bg": "bg-amber-50",
+        "border": "border-amber-200",
+        "text": "text-amber-700",
+        "badge": "bg-amber-500 text-white"
+      },
+      "kabul_edilebilir": {
+        "bg": "bg-emerald-50",
+        "border": "border-emerald-200",
+        "text": "text-emerald-700",
+        "badge": "bg-emerald-600 text-white"
+      }
+    }
+  },
+  "spacing_and_layouts": {
+    "grid_strategy": "High Density Grid (Mode B)",
+    "rules": [
+      "Use 'calm density' with 5-7 primary metrics on the dashboard overview.",
+      "Forms: Use compact row heights with sticky headers for the 84 questions.",
+      "Spacing scale: Use p-4 to p-6 for containers. Inner elements use tight spacing (gap-2, gap-4) to maximize data visibility.",
+      "Never use full-screen gradients. Use flat, solid backgrounds."
+    ]
+  },
+  "components": {
+    "navigation": "Fixed sidebar or sticky top nav with high-contrast text. Must include clear 'New Audit' CTA.",
+    "audit_form": {
+      "structure": "Horizontal tabs or vertical accordion for the 9 categories. Avoid endless scrolling without structure.",
+      "questions": "Each row should be a clearly demarcated line (border-b) with zebra striping (bg-zinc-50/50) for scannability.",
+      "inputs": "Radio group for (Evet/Hayır/N/A).",
+      "conditional_logic": "When 'Hayır' is selected, expand a detailed sub-panel immediately below the question for: Olasılık (Select), Şiddet (Select), Risk Skoru (Auto-calc), Risk Seviyesi (Badge), Termin (Datepicker), and Tedbir (Textarea)."
+    },
+    "dashboards": "KPI cards at the top (Total Audits, Unacceptable Risks, Pending Actions). Use Recharts for risk distribution.",
+    "buttons": "Sharp edges (rounded-md max), fully opaque brand color for primary, outline for secondary."
+  },
+  "visual_enhancers": {
+    "borders": "Expose the grid skeleton. Use 1px border-border/40 for structural separation.",
+    "surfaces": "NO GLASSMORPHISM. Use solid, opaque backgrounds for medical/clinical/audit clarity.",
+    "feedback": "Use Sonner for toast notifications on save/export."
+  },
+  "motion": {
+    "rules": [
+      "Minimalist micro-interactions.",
+      "Use smooth accordion expansion for category toggles and 'Hayır' sub-panels (framer-motion AnimatePresence).",
+      "Hover states must be a lighter hue of the active state."
+    ]
+  },
+  "accessibility": {
+    "rules": [
+      "Strict APCA/WCAG contrast compliance, especially for Red/Amber/Green text on colored backgrounds.",
+      "Focus states must have a 2px solid ring (ring-zinc-900).",
+      "Add aria-expanded for conditional risk panels."
+    ]
+  },
+  "media": {
+    "image_urls": {
+      "login_bg": {
+        "url": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf",
+        "description": "Professional chef in kitchen - use as a dark overlay background for the login/registration screen to ground the app in the restaurant context."
+      },
+      "empty_state": {
+        "url": "https://images.unsplash.com/photo-1642522029686-5485ea7e6042?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHwyfHxjb3Jwb3JhdGUlMjBvZmZpY2UlMjBkZXNrJTIwYXVkaXR8ZW58MHx8fHwxNzgzOTYzNjI4fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Man working at desk - use for 'No audits found' empty states."
+      }
+    }
+  },
+  "instructions_to_main_agent": [
+    "Build the application using standard React JS (.js/.jsx files), Tailwind CSS, and Shadcn UI components.",
+    "Implement a robust routing system (e.g., React Router) for Login, Dashboard, and Audit Form views.",
+    "For the 84 questions, construct a JSON configuration mapping questions to their 9 categories to render them dynamically.",
+    "Risk Score Logic: Score = Olasılık * Şiddet. Map the numerical score to 'Kabul Edilemez', 'Dikkate Değer', or 'Kabul Edilebilir' based on standard İSG matrices, and color the UI accordingly.",
+    "Add 'data-testid' to EVERY interactive element (buttons, inputs, tabs, export actions) for testing compatibility.",
+    "Install and use 'lucide-react' for all iconography. Avoid generic emojis.",
+    "Use 'sonner' for toast notifications on success/error states.",
+    "Implement Excel/PDF export logic using libraries like xlsx and jspdf/html2canvas, or mock the functionality cleanly if libraries are not installed.",
+    "DO NOT apply universal transitions (* { transition: all }). Only apply transitions to specific interactive elements.",
+    "DO NOT center align the app container in index.css."
+  ],
+  "universal_guidelines": [
+    "Prioritize using pre-existing components from src/components/ui when applicable.",
+    "Create depth through layered design elements with z-index hierarchy, but keep audit data flat and legible.",
+    "Every interaction needs micro-animations - hover states, transitions, and entrance animations.",
+    "Subtle grain textures or noise overlays can be used on the login page, but keep the dashboard pristine."
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "$schema": "./design-tokens.schema.json",
+  "name": "tab-gida-isg-design-tokens",
+  "version": "1.0.0",
+  "description": "Canonical design tokens for ABCD Tech Solutions İSG Risk Analiz. Single source of truth — tokens.css, tailwind.config.js, and design_guidelines.json.deprecated all derive from this file. Update here, propagate to the others.",
+  "source_of_truth": {
+    "css_layer": "frontend/src/styles/tokens.css",
+    "css_layer_utilities": "frontend/src/styles/utilities.css",
+    "tailwind_namespace": "frontend/tailwind.config.js"
+  },
+  "philosophy": {
+    "archetype": "Linear × Vanta — high-density matte audit SaaS",
+    "influences": ["Linear (density, micro-borders)", "Vanta (regulatory precision)", "SafetyCulture/iAuditor (field audit ergonomics)", "Incident.io (timeline + two-column cards)", "Raycast (command-palette nav)"],
+    "rejected_patterns": [
+      "Neon glow / drop-shadow with saturated color",
+      "Aggressive multi-stop gradients on primary actions",
+      "Glassmorphism / backdrop-blur on functional surfaces",
+      "Decorative SVG blobs on data screens",
+      "Universal * { transition: all }",
+      "Spring overshoot (type='spring' stiffness > 300)",
+      "Stock Tailwind red-600 / amber-500 / emerald-600 for risk semantics"
+    ]
+  },
+  "color": {
+    "strategy": "Function over decoration. 95% monochrome. Color is exclusively used to indicate risk levels and primary actions.",
+    "dark": {
+      "surface": {
+        "page":      "#0B0F17",
+        "page_alt":  "#12161A",
+        "card":      "#141B2D",
+        "card_alt":  "#1E242B",
+        "overlay":   "rgba(20, 27, 45, 0.85)"
+      },
+      "border": {
+        "default": "rgba(255, 255, 255, 0.08)",
+        "strong":  "rgba(255, 255, 255, 0.14)"
+      },
+      "ink": {
+        "primary":   "#E2E8F0",
+        "secondary": "#94A3B8",
+        "tertiary":  "#64748B",
+        "inverse":   "#0F172A"
+      }
+    },
+    "light": {
+      "surface": {
+        "page":      "#F5F5F0",
+        "page_alt":  "#F4F1EA",
+        "card":      "#FFFFFF",
+        "card_alt":  "#FAF9F4",
+        "overlay":   "rgba(255, 255, 255, 0.92)"
+      },
+      "border": {
+        "default": "#E2E8F0",
+        "strong":  "#D8D3C8"
+      },
+      "ink": {
+        "primary":   "#0F172A",
+        "secondary": "#475569",
+        "tertiary":  "#94A3B8",
+        "inverse":   "#E2E8F0"
+      }
+    },
+    "risk": {
+      "critical": {
+        "fg":   "#8B263E",
+        "fg_2": "#991B1B",
+        "bg":   "rgba(139, 38, 62, 0.10)",
+        "border": "rgba(139, 38, 62, 0.30)",
+        "label": "Kabul Edilemez"
+      },
+      "moderate": {
+        "fg":   "#B45309",
+        "fg_2": "#C08244",
+        "bg":   "rgba(180, 83, 9, 0.10)",
+        "border": "rgba(180, 83, 9, 0.30)",
+        "label": "Dikkate Değer"
+      },
+      "compliant": {
+        "fg":   "#4A6B53",
+        "fg_2": "#5B8266",
+        "bg":   "rgba(74, 107, 83, 0.10)",
+        "border": "rgba(74, 107, 83, 0.30)",
+        "label": "Kabul Edilebilir"
+      },
+      "info": {
+        "fg": "#4A6B9A",
+        "bg": "rgba(74, 107, 154, 0.10)",
+        "label": "Bilgi"
+      }
+    },
+    "border": {
+      "_comment": "Canonical per-mode BORDER values. Kept in sync with the nested color.dark.border / color.light.border below. CSS layer lives in tokens.css --border-* vars; Tailwind utilities bg/border-border-{default|strong|focus} resolve to the same CSS variables. The `focus` color is the same in both modes and intentionally equals risk-critical (#8B263E) so keyboard-focus outlines align with the risk palette the user has already learned.",
+      "default": {
+        "dark":  "rgba(255, 255, 255, 0.08)",
+        "light": "#E2E8F0"
+      },
+      "strong": {
+        "dark":  "rgba(255, 255, 255, 0.14)",
+        "light": "#D8D3C8"
+      },
+      "focus": "#8B263E"
+    },
+    "action": {
+      "_comment": "Neutral primary ACTION tokens for routine primary CTAs (login, save, submit). NOT for risk semantics. All keys aliased to ink.* so the tokens automatically invert across dark and light modes with no new hex values.",
+      "primary":           { "alias": "ink.primary" },
+      "primaryHover":      { "alias": "ink.secondary" },
+      "primaryForeground": { "alias": "ink.inverse"   }
+    },
+    "focus": "#8B263E"
+  },
+  "typography": {
+    "font_family": {
+      "sans":    ["Geist", "Inter", "Plus Jakarta Sans", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"],
+      "mono":    ["JetBrains Mono", "ui-monospace", "SF Mono", "Menlo", "monospace"],
+      "display": ["Geist", "Inter", "Plus Jakarta Sans", "-apple-system", "BlinkMacSystemFont", "sans-serif"]
+    },
+    "mono_usage": {
+      "MonoData":  "Numeric risk scores, deadlines, counters, tabular data — 8 Puan, 1 Ay, 5/18",
+      "MonoLegal": "Regulatory references — 6331 S.K. m. 30, Binaların Yangından Korunması Hk. Yön. m. 99",
+      "rule": "Mono ONLY for MonoData and MonoLegal. Body copy, headings, and labels in sans."
+    },
+    "size_scale": {
+      "label_caps":   "11px / 0.06em / 600",
+      "body":         "13px / 1.5 / 400",
+      "body_strong":  "13px / 1.5 / 600",
+      "h3":           "16px / 1.3 / 600",
+      "h2":           "20px / 1.25 / 700",
+      "h1":           "28px / 1.15 / 800 / -0.02em"
+    }
+  },
+  "radius": {
+    "card":     "12px",
+    "control":  "8px",
+    "pill":     "9999px",
+    "xs":       "4px"
+  },
+  "spacing_density": {
+    "form":  { "row_height": "44px", "padding_y": "11px" },
+    "table": { "row_height": "36px", "padding_y": "7px"  },
+    "dense": { "row_height": "28px", "padding_y": "5px"  }
+  },
+  "motion": {
+    "duration": {
+      "micro":    "200ms",
+      "standard": "350ms",
+      "entrance": "500ms"
+    },
+    "easing": {
+      "swift": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "firm":  "cubic-bezier(0.4, 0, 0.2, 1)"
+    },
+    "rules": [
+      "Sub-450ms for all theme transitions",
+      "ONLY apply transitions to color, background-color, border-color, transform, opacity",
+      "NEVER universal * { transition: all }",
+      "Spring overshoot banned — use ease-swift instead",
+      "Maximum 1 attention-drawing animation per screen"
+    ]
+  },
+  "shadow": {
+    "card":     "0 1px 2px rgba(0, 0, 0, 0.30) / dark | 0 1px 3px rgba(0, 0, 0, 0.05) / light",
+    "elevated": "0 4px 12px rgba(0, 0, 0, 0.40) / dark | 0 4px 12px rgba(0, 0, 0, 0.08) / light",
+    "overlay":  "0 16px 40px rgba(0, 0, 0, 0.55) / dark | 0 16px 40px rgba(0, 0, 0, 0.12) / light"
+  },
+  "z_index_scale": {
+    "base": 0,
+    "elevated": 10,
+    "sticky": 20,
+    "dropdown": 50,
+    "modal": 100,
+    "toast": 200,
+    "tooltip": 300
+  }
+}

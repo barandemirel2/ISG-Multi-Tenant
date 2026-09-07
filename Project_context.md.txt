@@ -1,0 +1,27 @@
+# ABCD Tech Solutions — İSG Risk Analiz & DÖF Takip Sistemi
+
+## Proje Amacı
+Restoran denetimlerini yönetmek, İSG risk skorlarını hesaplamak ve DÖF (Düzeltici Önleyici Faaliyet) aksiyonlarını takip etmek için geliştirilen web platformu.
+
+## Mevcut Mimarisi ve Teknoloji Yığını
+- **Frontend:** React (Create React App + Craco), Tailwind CSS, Lucide Icons
+- **Backend:** Node.js / Express.js
+- **Veritabanı:** MongoDB (`riskdb`)
+- **Konteynerizasyon:** Docker Compose + Nginx (Node 20-alpine imajı ile `/app/build` çıktısı servis ediliyor)
+- **Güvenlik & Rol:** JWT Tabanlı Kimlik Doğrulama, Kullanıcı Rolleri (`admin`, `yönetici`, `kullanıcı`)
+
+## Mevcut Çalışan Rotalar ve Yapı
+- `/dashboard`: Genel İSG denetim istatistikleri ve özet paneli.
+- `/dof`: DÖF Takip ve Aksiyon Yönetim Paneli.
+- `/login`: Kullanıcı ve Yönetici giriş ekranı.
+
+## Sıradaki Yol Haritası ve Eklenen Özellikler
+1. **DÖF Fotoğraf & Kanıt Yükleme Modülü:**
+   - Saha denetiminde tespit edilen uygunsuzluk fotoğrafı (Audit Photo) yükleme.
+   - DÖF kapatılırken yapılan düzeltmenin kanıt fotoğrafını (Resolution Photo) ekleme.
+   - Fotoğraf önizleme modal yapısı.
+2. **Raporlama Modülü:**
+   - Şube ve denetim bazlı PDF karne çıktısı.
+   - DÖF listesini Excel (`.xlsx`) olarak dışa aktarma.
+3. **Otomatik Bildirim & Mail:**
+   - Kritik risklerde ve süresi yaklaşan DÖF'lerde sorumluya otomatik bilgilendirme.

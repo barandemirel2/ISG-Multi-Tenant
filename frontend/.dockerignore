@@ -1,0 +1,14 @@
+node_modules
+build
+coverage
+.git
+.gitignore
+.env
+.env.*
+!.env.example
+**/__pycache__
+**/*.log
+README.md
+.eslintrc*
+plugins
+*.tgz

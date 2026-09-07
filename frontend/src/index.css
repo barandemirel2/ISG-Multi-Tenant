@@ -1,0 +1,304 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@300..800&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+/* ─── v1 design system tokens (canonical: /design-tokens.json) ─────────── */
+@import './styles/tokens.css';
+@import './styles/utilities.css';
+
+/* ─── Theme background & foreground ──────────────────────────────────────── */
+html.dark, html.dark body, html.dark #root {
+    background-color: #0B0F17;
+    color: #F8FAFC;
+    min-height: 100vh;
+}
+
+html:not(.dark), html:not(.dark) body, html:not(.dark) #root {
+    background-color: #F5F5F0;
+    color: #0F172A;
+    min-height: 100vh;
+}
+
+/* ─── Body base ──────────────────────────────────────────────────────────── */
+body {
+    margin: 0;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* ─── Typography ─────────────────────────────────────────────────────────── */
+h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+}
+
+.font-mono, code, .tabular-nums {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-variant-numeric: tabular-nums;
+}
+
+.label-caps {
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #94A3B8;
+}
+
+/* ─── Scrollbars ─────────────────────────────────────────────────────────── */
+html.dark ::-webkit-scrollbar { width: 6px; height: 6px; }
+html.dark ::-webkit-scrollbar-track { background: #090D16; }
+html.dark ::-webkit-scrollbar-thumb { background: #1E293B; border-radius: 9999px; }
+html.dark ::-webkit-scrollbar-thumb:hover { background: #334155; }
+
+html:not(.dark) ::-webkit-scrollbar { width: 6px; height: 6px; }
+html:not(.dark) ::-webkit-scrollbar-track { background: #F0F0EB; }
+html:not(.dark) ::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 9999px; }
+html:not(.dark) ::-webkit-scrollbar-thumb:hover { background: #94A3B8; }
+
+/* ─── Selection ──────────────────────────────────────────────────────────── */
+::selection { background: #EF4444; color: #FFFFFF; }
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   GPU HIZLANDIRMALI SMOOTH CROSSTAG & THEME TRANSITION SYSTEM
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* Sadece Ana Panel ve genel zemin renk geçişlerini yumuşat */
+html, body, #root, main {
+  transition: background-color 450ms cubic-bezier(0.16, 1, 0.3, 1),
+              color 450ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Dashboard kartları ve panelleri için gözü yormayan erime */
+.dashboard-card, .stat-card, .search-bar {
+  transition: background-color 400ms cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 400ms cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 400ms cubic-bezier(0.16, 1, 0.3, 1),
+              color 400ms cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+/* View Transitions API entegrasyonu (Tarayıcı desteği varsa) */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 450ms;
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Opt-out class for elements that should never transition (spinners, etc.) */
+.no-transition,
+.no-transition * {
+  transition: none !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ─── Tailwind base overrides ─────────────────────────────────────────────── */
+@layer base {
+    :root {
+        --background: 222 47% 6%;
+        --foreground: 210 40% 98%;
+        --card: 222 47% 8%;
+        --card-foreground: 210 40% 98%;
+        --popover: 222 47% 8%;
+        --popover-foreground: 210 40% 98%;
+        --primary: 350 89% 60%;
+        --primary-foreground: 0 0% 100%;
+        --secondary: 217 33% 17%;
+        --secondary-foreground: 210 40% 98%;
+        --muted: 217 33% 15%;
+        --muted-foreground: 215 20.2% 65.1%;
+        --accent: 217 33% 17%;
+        --accent-foreground: 210 40% 98%;
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 210 40% 98%;
+        --border: 217 33% 15%;
+        --input: 217 33% 15%;
+        --ring: 350 89% 60%;
+        --radius: 0.75rem;
+    }
+
+    /* ─── Light mode overrides for shadcn HSL bridge ─────────────────────
+       Tokens.css already provides :root + html:not(.dark) for the design
+       system (surface-*, ink-*, risk-*, border-*). The shadcn primitives
+       (DropdownMenu, Select, AlertDialog, Popover, Sheet, Dialog) still
+       use the legacy HSL variables below — they MUST also flip in light
+       mode or popovers/dropdowns render dark on a light page.
+       Values mirror the design tokens (bone/linen washi + Sanzo risk):
+         --surface-page        #F5F5F0 →  60 28% 95%
+         --ink-primary         #0F172A → 222 47% 11%
+         --surface-card        #FFFFFF →   0  0% 100%
+         --border-default      #E2E8F0 → 215 25% 87%
+         --ink-secondary       #475569 → 215 19% 35%
+         --risk-critical       #8B263E → 348 56% 38% (primary in light)
+       ─────────────────────────────────────────────────────────────────── */
+    html:not(.dark) {
+        --background: 60 28% 95%;
+        --foreground: 222 47% 11%;
+        --card: 0 0% 100%;
+        --card-foreground: 222 47% 11%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 222 47% 11%;
+        --primary: 348 56% 38%;
+        --primary-foreground: 0 0% 100%;
+        --secondary: 60 20% 94%;
+        --secondary-foreground: 222 47% 11%;
+        --muted: 60 20% 94%;
+        --muted-foreground: 215 19% 35%;
+        --accent: 60 20% 94%;
+        --accent-foreground: 222 47% 11%;
+        --destructive: 348 56% 38%;
+        --destructive-foreground: 0 0% 100%;
+        --border: 215 25% 87%;
+        --input: 215 25% 87%;
+        --ring: 348 56% 38%;
+    }
+}
+
+@layer base {
+    * {
+        /* Light mode default border — subtle slate-200 */
+        border-color: rgb(226 232 240 / 0.6);
+    }
+    html.dark * {
+        /* Dark mode border — deep slate-800 */
+        border-color: rgb(30 41 59 / 0.8);
+    }
+    body {
+        @apply bg-[#090D16] text-slate-100;
+    }
+}
+
+/* ─── Focus rings (a11y) ──────────────────────────────────────────────────
+   A11y P0: Klavye kullanıcıları için focus ring GÖRÜNÜR olmalı.
+   ``outline: none`` kaldırıldı; bunun yerine tutarlı, yüksek-kontrastlı,
+   marka renkli (red) 2px ring kullanılıyor. */
+button:focus-visible,
+a:focus-visible,
+[role="tab"]:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+[role="button"]:focus-visible,
+[role="checkbox"]:focus-visible,
+[role="radio"]:focus-visible,
+[role="menuitem"]:focus-visible,
+[role="option"]:focus-visible {
+    outline: 2px solid #DC2626; /* red-600 */
+    outline-offset: 2px;
+    border-radius: 4px;
+    transition: outline-offset 100ms ease-out;
+}
+
+/* Glassmorphic / dark mode background'ta ring'i daha görünür yap */
+html.dark button:focus-visible,
+html.dark a:focus-visible,
+html.dark [role="tab"]:focus-visible,
+html.dark input:focus-visible,
+html.dark textarea:focus-visible,
+html.dark select:focus-visible {
+    outline-color: #F87171; /* red-400 */
+}
+
+/* Form input'lar için iç halka + dış halka (Shadcn benzeri) */
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+    outline: 2px solid #DC2626;
+    outline-offset: 1px;
+    box-shadow: 0 0 0 4px rgba(220, 38, 38, 0.15);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   PRINT STYLESHEET — UI/UX P0
+   Saha denetçileri tarayıcıdan yazdırmak isteyebilir. Renkler sadeleşir,
+   header/footer/banner gizlenir, form elemanları input border'a döner.
+   ═══════════════════════════════════════════════════════════════════════════ */
+@media print {
+    /* Renk sadeleştirme — toner tasarrufu */
+    html, html.dark {
+        background-color: white !important;
+        color: black !important;
+    }
+    body {
+        background: white !important;
+        color: black !important;
+        font-size: 11pt;
+        -webkit-print-color-adjust: economy;
+        print-color-adjust: economy;
+    }
+
+    /* Header / Footer / Banner / Sidebar / FAB gizle */
+    header,
+    footer,
+    [data-testid="cookie-consent-banner"],
+    [data-testid="error-boundary"],
+    [data-testid="mobile-menu-trigger"],
+    [data-testid="read-only-indicator"],
+    [role="dialog"] {
+        display: none !important;
+    }
+
+    /* Glassmorphic / dark surfaces → düz beyaz */
+    .bg-white, .dark\:bg-slate-950, [class*="bg-slate-9"],
+    [class*="bg-gradient-to"], [class*="backdrop-blur"] {
+        background: white !important;
+        box-shadow: none !important;
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: none !important;
+    }
+
+    /* Border'ları yumuşak gri yap */
+    [class*="border-slate"], [class*="border-white"] {
+        border-color: #cbd5e1 !important;
+    }
+
+    /* Animasyonları kapat */
+    *, *::before, *::after {
+        animation: none !important;
+        transition: none !important;
+    }
+
+    /* Layout: main'i tam genişlik yap */
+    main {
+        max-width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    /* Butonlar — print'te görünmesin (form eylem butonları) */
+    button[data-testid$="-btn"],
+    button[type="submit"],
+    button[type="button"]:not([data-no-print]) {
+        display: none !important;
+    }
+
+    /* Form input'lar — yazdırılabilir hale getir (border + visible text) */
+    input, textarea, select {
+        border: 1px solid #94a3b8 !important;
+        background: transparent !important;
+        color: black !important;
+        padding: 4px 6px !important;
+        box-shadow: none !important;
+    }
+
+    /* Badge renkleri yazıcıda okunabilir koyu tonlara */
+    [data-testid^="audit-state-badge-"] {
+        border: 1px solid #475569 !important;
+        background: white !important;
+        color: #0f172a !important;
+    }
+
+    /* Sayfa kenar boşlukları */
+    @page {
+        margin: 1.5cm;
+    }
+
+    /* Tablo benzeri grid'lerde sayfa kırılmasın */
+    .divide-y > * {
+        break-inside: avoid;
+    }
+}

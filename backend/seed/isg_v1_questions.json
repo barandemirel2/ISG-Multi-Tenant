@@ -1,0 +1,1592 @@
+[
+  {
+    "id": 1,
+    "no": 1,
+    "category": "1. Genel İş Sağlığı ve Güvenliği Organizasyonu & Belgeleme",
+    "area": "Genel İSG",
+    "question": "İşyerine ait Onaylı Defter bulunmakta mıdır ve İSG Uzmanı / İşyeri Hekimi tespitleri düzenli işlenmekte midir?",
+    "responsible": "İşveren Vekili",
+    "default_probability": 2,
+    "default_severity": 4,
+    "default_risk_score": 8,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "6331 S.K. m. 30",
+      "İSG Hizmetleri Yön. m. 7"
+    ],
+    "corrective_action": "Onaylı defter Çalışma ve İŞKUR İl Müdürlüğü veya Noterden onaylatılmalı; tespitler düzenli imzalanmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 2,
+    "no": 2,
+    "category": "1. Genel İş Sağlığı ve Güvenliği Organizasyonu & Belgeleme",
+    "area": "Genel İSG",
+    "question": "Çalışanların İSG İşe Giriş ve Periyodik Sağlık Muayene raporları güncel ve tam mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 4,
+    "default_risk_score": 12,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "6331 S.K. m. 15",
+      "İşyeri Hekimi ve D.S.P. Görev Yön. m. 9",
+      "Hijyen Eğitimi Yön. m. 5"
+    ],
+    "corrective_action": "Eksik sağlık raporları işyeri hekimi koordinasyonu ile tamamlanmalı, portör muayeneleri güncellenmelidir.",
+    "document_risk_level": "Kabul Edilemez"
+  },
+  {
+    "id": 3,
+    "no": 3,
+    "category": "1. Genel İş Sağlığı ve Güvenliği Organizasyonu & Belgeleme",
+    "area": "Genel İSG",
+    "question": "Tüm çalışanların temel İSG eğitim katılım belgeleri ve sınav değerlendirmeleri mevcut mudur?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 4,
+    "default_risk_score": 8,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "6331 S.K. m. 17",
+      "Çalışanların İSG Eğitim Usul ve Esasları Hk. Yön. m. 5"
+    ],
+    "corrective_action": "Eğitimi eksik personelin İSG eğitimleri tamamlanmalı ve eğitim dosyasına eklenmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 4,
+    "no": 4,
+    "category": "1. Genel İş Sağlığı ve Güvenliği Organizasyonu & Belgeleme",
+    "area": "Genel İSG",
+    "question": "İşyerine özel hazırlanmış güncel Risk Değerlendirmesi Raporu bulunmakta mıdır?",
+    "responsible": "İşveren Vekili",
+    "default_probability": 2,
+    "default_severity": 5,
+    "default_risk_score": 10,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "6331 S.K. m. 10",
+      "İSG Risk Değerlendirmesi Yön. m. 5"
+    ],
+    "corrective_action": "Risk değerlendirme ekibi oluşturularak tesis revizyonlarına uygun güncel risk analizi hazırlanmalıdır.",
+    "document_risk_level": "Kabul Edilemez"
+  },
+  {
+    "id": 5,
+    "no": 5,
+    "category": "1. Genel İş Sağlığı ve Güvenliği Organizasyonu & Belgeleme",
+    "area": "Genel İSG",
+    "question": "Acil Durum Planları ve Tahliye Krokileri görünür alanlara asılmış mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 3,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "6331 S.K. m. 11",
+      "İşyerlerinde Acil Durumlar Hk. Yön. m. 12"
+    ],
+    "corrective_action": "Acil durum krokileri güncellenerek personel ve üretim alanlarına asılmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 6,
+    "no": 6,
+    "category": "1. Genel İş Sağlığı ve Güvenliği Organizasyonu & Belgeleme",
+    "area": "Genel İSG",
+    "question": "Acil Durum Ekipleri (Söndürme, Kurtarma, Koruma, İlk Yardım) belirlenmiş ve eğitilmiş midir?",
+    "responsible": "İşveren Vekili",
+    "default_probability": 2,
+    "default_severity": 4,
+    "default_risk_score": 8,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "İşyerlerinde Acil Durumlar Hk. Yön. m. 11",
+      "İlkyardım Yönetmeliği m. 19"
+    ],
+    "corrective_action": "Ekipler güncellenmeli ve Sertifikalı İlk Yardımcı sayısı mevzuat oranına (1/20) tamamlanmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 7,
+    "no": 7,
+    "category": "1. Genel İş Sağlığı ve Güvenliği Organizasyonu & Belgeleme",
+    "area": "Genel İSG",
+    "question": "Yıllık Acil Durum Tahliye ve Yangın Tatbikatı yapılarak raporlaştırılmış mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 3,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "3 Ay",
+    "legal_basis": [
+      "6331 S.K. m. 11",
+      "İşyerlerinde Acil Durumlar Hk. Yön. m. 13"
+    ],
+    "corrective_action": "Yılda en az bir defa tüm vardiyaları kapsayacak şekilde tahliye tatbikatı yapılıp tutanak tutulmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 8,
+    "no": 8,
+    "category": "1. Genel İş Sağlığı ve Güvenliği Organizasyonu & Belgeleme",
+    "area": "Genel İSG",
+    "question": "İSG Kurul Toplantıları veya Çalışan Temsilcisi görüşmeleri düzenli yapılmakta mıdır?",
+    "responsible": "İşveren Vekili",
+    "default_probability": 2,
+    "default_severity": 2,
+    "default_risk_score": 4,
+    "default_risk_level": "Kabul Edilebilir",
+    "deadline": "3 Ay",
+    "legal_basis": [
+      "6331 S.K. m. 20",
+      "6331 S.K. m. 22",
+      "İSG Kurulları Hk. Yön. m. 6"
+    ],
+    "corrective_action": "Temsilci seçim tutanakları yenilenmeli, periyodik değerlendirme toplantı kararları kayıt altına alınmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 9,
+    "no": 9,
+    "category": "1. Genel İş Sağlığı ve Güvenliği Organizasyonu & Belgeleme",
+    "area": "Genel İSG",
+    "question": "Tüm personelin Hijyen Eğitimi Belgesi mevcut mudur?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 4,
+    "default_risk_score": 12,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Hijyen Eğitimi Yönetmeliği m. 5",
+      "Hijyen Eğitimi Yönetmeliği m. 8"
+    ],
+    "corrective_action": "Tüm mutfak ve servis personeline e-Devlet onaylı Hijyen Eğitimi Belgesi aldırılmalıdır.",
+    "document_risk_level": "Kabul Edilemez"
+  },
+  {
+    "id": 10,
+    "no": 10,
+    "category": "1. Genel İş Sağlığı ve Güvenliği Organizasyonu & Belgeleme",
+    "area": "Genel İSG",
+    "question": "İş kazası ve ramak kala olay bildirim kutusu/formu aktif kullanılmakta mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 3,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "6331 S.K. m. 14",
+      "5510 S.K. m. 13"
+    ],
+    "corrective_action": "Ramak kala bildirim panosu personelin erişimine açılmalı, SGK iş kazası bildirimleri 3 iş günü içinde yapılmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 11,
+    "no": 11,
+    "category": "2. Yangın Güvenliği, Acil Durum ve Tahliye Sistemleri",
+    "area": "Yangın Güv.",
+    "question": "Yangın söndürme tüplerinin (YKS) yıllık bakımları ve 4 yıllık dolum süreleri güncel midir?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 5,
+    "default_risk_score": 10,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Binaların Yangından Korunması Hk. Yön. m. 99",
+      "İş Ekipmanlarının Kullanımında Sağlık ve Güvenlik Şartları Yön. Ek-III"
+    ],
+    "corrective_action": "Yetkili firmaya YKS periyodik bakımı yaptırılmalı, kontrol kartları tüp üzerine işlenmelidir.",
+    "document_risk_level": "Kabul Edilemez"
+  },
+  {
+    "id": 12,
+    "no": 12,
+    "category": "2. Yangın Güvenliği, Acil Durum ve Tahliye Sistemleri",
+    "area": "Yangın Güv.",
+    "question": "Yangın tüplerinin önü kapanmayacak şekilde boş bırakılmış ve zemin yüksekliği ayarlanmış mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 3,
+    "default_risk_score": 9,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "Binaların Yangından Korunması Hk. Yön. m. 99/4"
+    ],
+    "corrective_action": "YKS önündeki istifler derhal kaldırılmalı, yerden max 90 cm yüksekliğe asılmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 13,
+    "no": 13,
+    "category": "2. Yangın Güvenliği, Acil Durum ve Tahliye Sistemleri",
+    "area": "Yangın Güv.",
+    "question": "Mutfak davlumbazlarında Otomatik Gazlı Söndürme Sistemi (ANSUL vb.) mevcut ve bakımlı mıdır?",
+    "responsible": "İşveren Vekili",
+    "default_probability": 1,
+    "default_severity": 5,
+    "default_risk_score": 5,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "3 Ay",
+    "legal_basis": [
+      "Binaların Yangından Korunması Hk. Yön. m. 57/1"
+    ],
+    "corrective_action": "Davlumbaz söndürme sisteminin 6 aylık periyodik bakımı yetkili servise yaptırılmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 14,
+    "no": 14,
+    "category": "2. Yangın Güvenliği, Acil Durum ve Tahliye Sistemleri",
+    "area": "Yangın Güv.",
+    "question": "Acil çıkış kapıları kaçış yönüne doğru dışa açılır ve panik barlı mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 4,
+    "default_risk_score": 12,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Binaların Yangından Korunması Hk. Yön. m. 31",
+      "İşyeri Bina ve Eklentilerinde Sağlık Güvenlik Önlemleri Yön. Ek-I m. 10"
+    ],
+    "corrective_action": "Acil çıkış kapısındaki kilitler kaldırılmalı, panik bar mekanizması işlevsel hale getirilmelidir.",
+    "document_risk_level": "Kabul Edilemez"
+  },
+  {
+    "id": 15,
+    "no": 15,
+    "category": "2. Yangın Güvenliği, Acil Durum ve Tahliye Sistemleri",
+    "area": "Yangın Güv.",
+    "question": "Acil çıkış yolları ve merdivenleri malzeme depolanmasından arındırılmış, geçişe açık mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 4,
+    "default_severity": 4,
+    "default_risk_score": 16,
+    "default_risk_level": "Kabul Edilemez",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "Binaların Yangından Korunması Hk. Yön. m. 52",
+      "İşyeri Bina ve Eklentilerinde Sağlık Güvenlik Önlemleri Yön. Ek-I m. 9"
+    ],
+    "corrective_action": "Kaçış koridorlarındaki koli ve kasalar derhal temizlenmeli, tahliye yolu açık tutulmalıdır.",
+    "document_risk_level": "Kabul Edilemez"
+  },
+  {
+    "id": 16,
+    "no": 16,
+    "category": "2. Yangın Güvenliği, Acil Durum ve Tahliye Sistemleri",
+    "area": "Yangın Güv.",
+    "question": "Acil durum aydınlatma armatürleri ve \"EXIT/ÇIKIŞ\" yönlendirme levhaları çalışır durumda mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 4,
+    "default_risk_score": 8,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Binaların Yangından Korunması Hk. Yön. m. 72",
+      "Binaların Yangından Korunması Hk. Yön. m. 73"
+    ],
+    "corrective_action": "Bataryalı acil aydınlatma armatürlerinin testleri tamamlanmalı ve arızalı olanlar değiştirilmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 17,
+    "no": 17,
+    "category": "2. Yangın Güvenliği, Acil Durum ve Tahliye Sistemleri",
+    "area": "Yangın Güv.",
+    "question": "Yangın algılama ve ihbar dedektörleri mutfak ve depo alanlarında aktif midir?",
+    "responsible": "İşveren Vekili",
+    "default_probability": 2,
+    "default_severity": 4,
+    "default_risk_score": 8,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Binaların Yangından Korunması Hk. Yön. m. 75",
+      "Binaların Yangından Korunması Hk. Yön. m. 81"
+    ],
+    "corrective_action": "Duman/ısı dedektörlerinin üzeri kapatılmamalı, yangın santral arızaları giderilmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 18,
+    "no": 18,
+    "category": "2. Yangın Güvenliği, Acil Durum ve Tahliye Sistemleri",
+    "area": "Yangın Güv.",
+    "question": "Yangın dolapları ve hortumları basınca dayanıklı ve erişilebilir durumda mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 3,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "3 Ay",
+    "legal_basis": [
+      "Binaların Yangından Korunması Hk. Yön. m. 94",
+      "TS EN 671-3"
+    ],
+    "corrective_action": "Yangın dolap içi temizlenmeli, hortum su basınç testleri yetkili tesisatçıya kontrol ettirilmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 19,
+    "no": 19,
+    "category": "2. Yangın Güvenliği, Acil Durum ve Tahliye Sistemleri",
+    "area": "Yangın Güv.",
+    "question": "Gaz kesme emniyet valfleri (solenoid valf) yangın alarm sistemi ile entegre midir?",
+    "responsible": "İşveren Vekili",
+    "default_probability": 1,
+    "default_severity": 5,
+    "default_risk_score": 5,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Binaların Yangından Korunması Hk. Yön. m. 112/4"
+    ],
+    "corrective_action": "Gaz algılama dedektörleri solenoid valfe bağlanarak gaz akışı acil durumda otomatik kesilmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 20,
+    "no": 20,
+    "category": "2. Yangın Güvenliği, Acil Durum ve Tahliye Sistemleri",
+    "area": "Yangın Güv.",
+    "question": "Mutfak yangın battaniyesi pişirme alanına yakın konumlandırılmış mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 3,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "Binaların Yangından Korunması Hk. Yön. m. 99",
+      "TS EN 1869"
+    ],
+    "corrective_action": "Yangın battaniyesi fritöz/ızgara alanına en fazla 3 metre mesafede görünür şekilde asılmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 21,
+    "no": 21,
+    "category": "3. Elektrik ve Tesisat Güvenliği",
+    "area": "Elektrik Güv.",
+    "question": "Elektrik panolarında Kaçak Akım Rölesi (30mA Hayat Koruma / 300mA Yangın Koruma) mevcut ve aktif midir?",
+    "responsible": "İşveren Vekili",
+    "default_probability": 3,
+    "default_severity": 5,
+    "default_risk_score": 15,
+    "default_risk_level": "Kabul Edilemez",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Elektrik İç Tesisleri Yönetmeliği m. 18",
+      "Elektrik Tesislerinde Topraklamalar Yön. Ek-N"
+    ],
+    "corrective_action": "Tüm tali panolara 30 mA kaçak akım rölesi monte edilmeli ve test butonu denetlenmelidir.",
+    "document_risk_level": "Kabul Edilemez"
+  },
+  {
+    "id": 22,
+    "no": 22,
+    "category": "3. Elektrik ve Tesisat Güvenliği",
+    "area": "Elektrik Güv.",
+    "question": "Elektrik panolarının altlarında yalıtkan paspas (izole halı) bulunmakta mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 4,
+    "default_risk_score": 8,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Elektrik İç Tesisleri Yönetmeliği m. 51",
+      "İş Ekipmanlarının Kullanımında Sağlık ve Güvenlik Şartları Yön. Ek-III"
+    ],
+    "corrective_action": "Elektrik panolarının önüne 1000V dayanımlı yalıtkan paspas serilmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 23,
+    "no": 23,
+    "category": "3. Elektrik ve Tesisat Güvenliği",
+    "area": "Elektrik Güv.",
+    "question": "Elektrik panolarının kapakları kilitli, önleri açık ve uyarı levhaları mevcut mudur?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 3,
+    "default_risk_score": 9,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "Elektrik Tesislerinde Topraklamalar Yön. m. 21",
+      "Sağlık ve Güvenlik İşaretleri Yönetmeliği Ek-II"
+    ],
+    "corrective_action": "Pano önündeki malzemeler kaldırılmalı, \"Tehlikeli Gerilim\" uyarı etiketi yapıştırılmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 24,
+    "no": 24,
+    "category": "3. Elektrik ve Tesisat Güvenliği",
+    "area": "Elektrik Güv.",
+    "question": "Yıllık Elektrik İç Tesisat Kontrolü ve Topraklama Ölçüm Raporu yetkili mühendisçe onaylı mıdır?",
+    "responsible": "İşveren Vekili",
+    "default_probability": 2,
+    "default_severity": 4,
+    "default_risk_score": 8,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Elektrik Tesislerinde Topraklamalar Yön. m. 10",
+      "İş Ekipmanlarının Kullanımında Sağlık ve Güvenlik Şartları Yön. Ek-III m. 2.3"
+    ],
+    "corrective_action": "EMO üyesi yetkili elektrik mühendisine topraklama ve iç tesisat kontrolü yaptırılmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 25,
+    "no": 25,
+    "category": "3. Elektrik ve Tesisat Güvenliği",
+    "area": "Elektrik Güv.",
+    "question": "Mutfak zeminindeki prizler su sıçramasına karşı IP54/IP65 koruma kapaklı mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 4,
+    "default_risk_score": 12,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Elektrik İç Tesisleri Yönetmeliği m. 42",
+      "TS HD 60364-7-701"
+    ],
+    "corrective_action": "Islak alanlardaki tüm sıradan prizler kapaklı, sızdırmaz IP65 prizlerle değiştirilmelidir.",
+    "document_risk_level": "Kabul Edilemez"
+  },
+  {
+    "id": 26,
+    "no": 26,
+    "category": "3. Elektrik ve Tesisat Güvenliği",
+    "area": "Elektrik Güv.",
+    "question": "Tüm kablolar yalıtımlı, sağlam ve kapalı mıdır (ek, aşınma, soyulma, açıkta iletken tel yok)?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 4,
+    "default_risk_score": 12,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "Elektrik İç Tesisleri Yönetmeliği m. 35",
+      "İş Ekipmanlarının Kullanımında Sağlık ve Güvenlik Şartları Yön. Ek-II m. 2.1"
+    ],
+    "corrective_action": "Hasarlı kablo ve uzatmalar derhal imha edilmeli, yekpare orijinal kablo kullanılmalıdır.",
+    "document_risk_level": "Kabul Edilemez"
+  },
+  {
+    "id": 27,
+    "no": 27,
+    "category": "3. Elektrik ve Tesisat Güvenliği",
+    "area": "Elektrik Güv.",
+    "question": "Seyyar uzatma kabloları ve çoklu prizler yalnızca geçici kullanım için mi kullanılmaktadır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 3,
+    "default_risk_score": 9,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Elektrik İç Tesisleri Yönetmeliği m. 35",
+      "Elektrik Kuvvetli Akım Tesisleri Yön. m. 40"
+    ],
+    "corrective_action": "Seyyar hatlar kaldırılmalı, cihaz sayısına uygun kalıcı buat ve priz tesisatı çekilmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 28,
+    "no": 28,
+    "category": "3. Elektrik ve Tesisat Güvenliği",
+    "area": "Elektrik Güv.",
+    "question": "Jeneratör ve kompresör alanlarında koruyucu muhafazalar ve topraklama bağlantısı tam mıdır?",
+    "responsible": "İşveren Vekili",
+    "default_probability": 2,
+    "default_severity": 4,
+    "default_risk_score": 8,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Makine Emniyeti Yönetmeliği Ek-I m. 1.3.8",
+      "İş Ekipmanlarının Kullanımında Sağlık ve Güvenlik Şartları Yön. Ek-III m. 2.4"
+    ],
+    "corrective_action": "Hareketli kayış-kasnak aksamları kapatılmalı, gövde topraklaması yapılmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 29,
+    "no": 29,
+    "category": "3. Elektrik ve Tesisat Güvenliği",
+    "area": "Elektrik Güv.",
+    "question": "Aydınlatma armatürleri sağlam ve güvenli midir?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 3,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "İşyeri Bina ve Eklentilerinde Sağlık Güvenlik Önlemleri Yön. Ek-I m. 18",
+      "Gıda Hijyeni Yönetmeliği Ek-II"
+    ],
+    "corrective_action": "Mutfak üzerindeki armatürlere kırılmaya karşı koruyucu glop/etajer takılmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 30,
+    "no": 30,
+    "category": "3. Elektrik ve Tesisat Güvenliği",
+    "area": "Elektrik Güv.",
+    "question": "Tüm elektrik arıza ve bakım işlemleri Yetkili Elektrik Personeli tarafından mı yapılmaktadır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 5,
+    "default_risk_score": 10,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "Elektrik İle İlgili Fen Adamlarının Görev Yetki ve Sorumlulukları Hk. Yön. m. 3",
+      "6331 S.K. m. 17"
+    ],
+    "corrective_action": "Yetkisiz personelin panolara müdahalesi kesinlikle yasaklanmalıdır.",
+    "document_risk_level": "Kabul Edilemez"
+  },
+  {
+    "id": 31,
+    "no": 31,
+    "category": "4. Mutfak, Pişirme, Kızartma ve Isıl İşlem Ekipmanları",
+    "area": "Mutfak Ekipm.",
+    "question": "Sanayi tipi fritözlerde yağ sıcaklık termostatı ve emniyet limit termostatı çalışır durumda mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 5,
+    "default_risk_score": 10,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Makine Emniyeti Yönetmeliği Ek-I m. 1.5.1",
+      "İş Ekipmanlarının Kullanımında Sağlık ve Güvenlik Şartları Yön. Ek-II m. 2.1"
+    ],
+    "corrective_action": "Aşırı ısınmayı önleyen limit termostat testi yapılmalı, arızalı cihaz devre dışı bırakılmalıdır.",
+    "document_risk_level": "Kabul Edilemez"
+  },
+  {
+    "id": 32,
+    "no": 32,
+    "category": "4. Mutfak, Pişirme, Kızartma ve Isıl İşlem Ekipmanları",
+    "area": "Mutfak Ekipm.",
+    "question": "Sıcak yağ sıçramalarına karşı fritöz etrafında koruyucu siperlikler mevcut mudur?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 3,
+    "default_risk_score": 9,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Makine Emniyeti Yönetmeliği Ek-I m. 1.3.3",
+      "İş Ekipmanlarının Kullanımında Sağlık ve Güvenlik Şartları Yön. Ek-II m. 1.1"
+    ],
+    "corrective_action": "Fritöz kenarlarına paslanmaz çelik sıçrama önleyici panel monte edilmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 33,
+    "no": 33,
+    "category": "4. Mutfak, Pişirme, Kızartma ve Isıl İşlem Ekipmanları",
+    "area": "Mutfak Ekipm.",
+    "question": "Izgara, broiler ve fırın kapaklarının tutamaklarında ısı yalıtımı sağlanmış mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 2,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Makine Emniyeti Yönetmeliği Ek-I m. 1.5.6",
+      "İş Ekipmanlarının Kullanımında Sağlık ve Güvenlik Şartları Yön. Ek-II m. 2.1"
+    ],
+    "corrective_action": "Yanık riskine karşı aşınmış tutamak izolasyonları yenilenmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 34,
+    "no": 34,
+    "category": "4. Mutfak, Pişirme, Kızartma ve Isıl İşlem Ekipmanları",
+    "area": "Mutfak Ekipm.",
+    "question": "Ekmek kesme, et dilimleme ve hamur yoğurma makinelerinde acil durdurma (EMERGENCY STOP) butonu aktif midir?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 5,
+    "default_risk_score": 10,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Makine Emniyeti Yönetmeliği Ek-I m. 1.2.4.3",
+      "İş Ekipmanlarının Kullanımında Sağlık ve Güvenlik Şartları Yön. Ek-II m. 2.1"
+    ],
+    "corrective_action": "İptal edilen güvenlik switchleri aktif edilmeli, acil stop butonu revize edilmelidir.",
+    "document_risk_level": "Kabul Edilemez"
+  },
+  {
+    "id": 35,
+    "no": 35,
+    "category": "4. Mutfak, Pişirme, Kızartma ve Isıl İşlem Ekipmanları",
+    "area": "Mutfak Ekipm.",
+    "question": "Bıçak depolama ve muhafaza kılıfları/mıknatıslı tutucular kullanılmakta mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 3,
+    "default_risk_score": 9,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "İş Ekipmanlarının Kullanımında Sağlık ve Güvenlik Şartları Yön. Ek-II m. 1.1",
+      "Gıda Hijyeni Yönetmeliği Ek-II"
+    ],
+    "corrective_action": "Tezgah üstünde açıkta bıçak bırakılmamalı, duvara manyetik bıçak tutucu takılmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 36,
+    "no": 36,
+    "category": "4. Mutfak, Pişirme, Kızartma ve Isıl İşlem Ekipmanları",
+    "area": "Mutfak Ekipm.",
+    "question": "Mutfak ekipmanlarının periyodik teknik bakımları (sözleşmeli servisçe) yapılmakta mıdır?",
+    "responsible": "İşveren Vekili",
+    "default_probability": 2,
+    "default_severity": 3,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "3 Ay",
+    "legal_basis": [
+      "İş Ekipmanlarının Kullanımında Sağlık ve Güvenlik Şartları Yön. m. 7",
+      "6331 S.K. m. 10"
+    ],
+    "corrective_action": "Periyodik bakım sözleşmesi güncellenmeli ve servis formları dosyalanmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 37,
+    "no": 37,
+    "category": "4. Mutfak, Pişirme, Kızartma ve Isıl İşlem Ekipmanları",
+    "area": "Mutfak Ekipm.",
+    "question": "Kızartma yağlarının değişim periyodu polar madde ölçümü ile takip edilmekte midir?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 3,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "Kızartmada Kullanılmakta Olan Sıvı Yağlar İçin Hijyen Kriterleri Yön. m. 5",
+      "5996 Sayılı Kanun m. 22"
+    ],
+    "corrective_action": "Yağ polar madde ölçüm cihazı kalibre edilmeli, %25 üzerindeki yağlar imha edilmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 38,
+    "no": 38,
+    "category": "4. Mutfak, Pişirme, Kızartma ve Isıl İşlem Ekipmanları",
+    "area": "Mutfak Ekipm.",
+    "question": "Sıcak su ısıtıcıları (boiler) ve çay makinelerinde basınç emniyet ventili var mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 1,
+    "default_severity": 4,
+    "default_risk_score": 4,
+    "default_risk_level": "Kabul Edilebilir",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Basınçlı Ekipmanlar Yönetmeliği (2014/68/AB) Ek-I m. 2.11",
+      "İş Ekipmanlarının Kullanımında Sağlık ve Güvenlik Şartları Yön. Ek-III m. 2.1"
+    ],
+    "corrective_action": "Emniyet ventili su tahliye borusu güvenli alana yönlendirilmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 39,
+    "no": 39,
+    "category": "4. Mutfak, Pişirme, Kızartma ve Isıl İşlem Ekipmanları",
+    "area": "Mutfak Ekipm.",
+    "question": "Mutfak bataryaları ve sıcak su hatlarında haşlanma riskine karşı uyarı etiketleri var mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 2,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "Sağlık ve Güvenlik İşaretleri Yönetmeliği Ek-II m. 3.2"
+    ],
+    "corrective_action": "Sıcak su hatlarına \"Aşırı Sıcak Su - Haşlanma Tehlikesi\" ikaz sembolü yapıştırılmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 40,
+    "no": 40,
+    "category": "4. Mutfak, Pişirme, Kızartma ve Isıl İşlem Ekipmanları",
+    "area": "Mutfak Ekipm.",
+    "question": "Bulaşıkhane giyotin tip bulaşık makinelerinin kapak sensörleri sağlam mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 3,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Makine Emniyeti Yönetmeliği Ek-I m. 1.4.2",
+      "İş Ekipmanlarının Kullanımında Sağlık ve Güvenlik Şartları Yön. Ek-II m. 2.1"
+    ],
+    "corrective_action": "Kapak kaldırıldığında yıkamayı durduran limit switch tamir ettirilmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 41,
+    "no": 41,
+    "category": "5. Soğuk Hava Depoları, Depolama ve Ergonomi",
+    "area": "Soğuk Depo",
+    "question": "Soğuk hava depolarında içeriden kapıyı açan acil durum güvenlik mandalı çalışır durumda mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 5,
+    "default_risk_score": 10,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "İşyeri Bina ve Eklentilerinde Sağlık Güvenlik Önlemleri Yön. Ek-I m. 7",
+      "İş Ekipmanlarının Kullanımında Sağlık ve Güvenlik Şartları Yön. Ek-II m. 1.1"
+    ],
+    "corrective_action": "Soğuk oda kapı iç kilit mekanizması yağlanmalı ve günlük işlerlik testi yapılmalıdır.",
+    "document_risk_level": "Kabul Edilemez"
+  },
+  {
+    "id": 42,
+    "no": 42,
+    "category": "5. Soğuk Hava Depoları, Depolama ve Ergonomi",
+    "area": "Soğuk Depo",
+    "question": "Soğuk depolarda sesli ve ışıklı \"İçeride Adam Var\" acil durum butonu/alarmı mevcut midir?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 5,
+    "default_risk_score": 10,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "İşyeri Bina ve Eklentilerinde Sağlık Güvenlik Önlemleri Yön. Ek-I m. 7",
+      "6331 S.K. m. 11"
+    ],
+    "corrective_action": "Panik butonu ve harici sireni test edilerek arızaları derhal giderilmelidir.",
+    "document_risk_level": "Kabul Edilemez"
+  },
+  {
+    "id": 43,
+    "no": 43,
+    "category": "5. Soğuk Hava Depoları, Depolama ve Ergonomi",
+    "area": "Soğuk Depo",
+    "question": "Soğuk odalarda taban buzlanmasına karşı rezistanslı eşik ısıtıcıları çalışmakta mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 3,
+    "default_risk_score": 9,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "İşyeri Bina ve Eklentilerinde Sağlık Güvenlik Önlemleri Yön. Ek-I m. 14",
+      "6331 S.K. m. 4"
+    ],
+    "corrective_action": "Kapı altı rezistans hatları kontrol edilmeli, zemin buzlanması engellenmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 44,
+    "no": 44,
+    "category": "5. Soğuk Hava Depoları, Depolama ve Ergonomi",
+    "area": "Soğuk Depo",
+    "question": "Depo raflarının devrilmeye karşı duvara/zemine sabitlemesi yapılmış mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 4,
+    "default_risk_score": 8,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "İşyeri Bina ve Eklentilerinde Sağlık Güvenlik Önlemleri Yön. Ek-I m. 15",
+      "TS EN 15635 Standardı"
+    ],
+    "corrective_action": "Tüm hafif ve ağır yük rafları dübellerle duvara/zemine rijit sabitlenmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 45,
+    "no": 45,
+    "category": "5. Soğuk Hava Depoları, Depolama ve Ergonomi",
+    "area": "Soğuk Depo",
+    "question": "Depo rafları üzerinde azami taşıma kapasitesi (MAX ... KG) bilgi etiketleri var mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 2,
+    "default_risk_score": 4,
+    "default_risk_level": "Kabul Edilebilir",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Sağlık ve Güvenlik İşaretleri Yönetmeliği Ek-II",
+      "TS EN 15635 Standardı"
+    ],
+    "corrective_action": "Rafların kat başı taşıma kapasite etiketleri bastırılarak yapıştırılmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 46,
+    "no": 46,
+    "category": "5. Soğuk Hava Depoları, Depolama ve Ergonomi",
+    "area": "Soğuk Depo",
+    "question": "Ağır koliler alt raflara, hafif malzemeler üst raflara yerleştirilmiş midir?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 3,
+    "default_risk_score": 9,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "Elle Taşıma İşleri Yönetmeliği m. 6",
+      "Elle Taşıma İşleri Yönetmeliği Ek-I"
+    ],
+    "corrective_action": "Depo istifleme kuralına göre ağır yükler bel yüksekliği aralığına/alt raflara taşınmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 47,
+    "no": 47,
+    "category": "5. Soğuk Hava Depoları, Depolama ve Ergonomi",
+    "area": "Soğuk Depo",
+    "question": "Yük kaldırma ve taşıma işlemlerinde personele elle taşıma eğitimi verilmiş midir?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 3,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Elle Taşıma İşleri Yönetmeliği m. 7",
+      "6331 S.K. m. 17"
+    ],
+    "corrective_action": "Çalışanlara bel ve omurga sağlığını koruyan ergonomik yük kaldırma eğitimi verilmeli.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 48,
+    "no": 48,
+    "category": "5. Soğuk Hava Depoları, Depolama ve Ergonomi",
+    "area": "Soğuk Depo",
+    "question": "Depolarda malzeme istif yüksekliği tavan/sprinkler seviyesinden en az 50 cm aşağıda mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 3,
+    "default_risk_score": 9,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "Binaların Yangından Korunması Hk. Yön. m. 92/2"
+    ],
+    "corrective_action": "Üst raflara aşırı istifleme engellenmeli, sprinkler atış açısı korunmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 49,
+    "no": 49,
+    "category": "5. Soğuk Hava Depoları, Depolama ve Ergonomi",
+    "area": "Soğuk Depo",
+    "question": "Soğuk oda personeli için soğuk iklim montu ve termal eldiven sağlanmış mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 3,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Kişisel Koruyucu Donanımların İşyerlerinde Kullanılması Yön. Ek-III",
+      "6331 S.K. m. 5"
+    ],
+    "corrective_action": "Soğuk odaya giren her personele uygun standartlı termal kaban tahsis edilmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 50,
+    "no": 50,
+    "category": "5. Soğuk Hava Depoları, Depolama ve Ergonomi",
+    "area": "Soğuk Depo",
+    "question": "Depo alanında transpalet/istifleyici kullanımı varsa periyodik kontrolü yapılmış mıdır?",
+    "responsible": "İşveren Vekili",
+    "default_probability": 1,
+    "default_severity": 5,
+    "default_risk_score": 5,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "3 Ay",
+    "legal_basis": [
+      "İş Ekipmanlarının Kullanımında Sağlık ve Güvenlik Şartları Yön. Ek-III m. 2.2"
+    ],
+    "corrective_action": "Transpalet ve akülü istifleyicilerin yıllık akredite muayenesi tamamlanmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 51,
+    "no": 51,
+    "category": "6. Kişisel Koruyucu Donanımlar (KKD) ve Hijyen",
+    "area": "KKD & Hijyen",
+    "question": "Mutfak personeli kesilmez çelik örgü eldiven veya Seviye 5 kesilmeye dirençli eldiven kullanmakta mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 3,
+    "default_risk_score": 9,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "Kişisel Koruyucu Donanımların İşyerlerinde Kullanılması Yön. Ek-III",
+      "TS EN 388 Standardı"
+    ],
+    "corrective_action": "Bıçak ve kesim işlemlerinde EN 388 standartlı kesilmez eldiven kullanımı zorunlu kılınmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 52,
+    "no": 52,
+    "category": "6. Kişisel Koruyucu Donanımlar (KKD) ve Hijyen",
+    "area": "KKD & Hijyen",
+    "question": "Sıcak yağ ve temizlik kimyasalı işlemlerinde ısıya/kimyasala dayanıklı eldiven ve siperlik kullanılıyor mu?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 4,
+    "default_risk_score": 12,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "Kişisel Koruyucu Donanımların İşyerlerinde Kullanılması Yön. m. 6",
+      "Kimyasal Maddelerle Çalışmalarda Yön. m. 8"
+    ],
+    "corrective_action": "Fritöz filtresi temizliğinde nitril/ısı eldiveni ve yüz siperliği takılması denetlenmelidir.",
+    "document_risk_level": "Kabul Edilemez"
+  },
+  {
+    "id": 53,
+    "no": 53,
+    "category": "6. Kişisel Koruyucu Donanımlar (KKD) ve Hijyen",
+    "area": "KKD & Hijyen",
+    "question": "Mutfak ve servis alanında çalışanların ayakkabıları kaymaz tabanlı (SRC sertifikalı) mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 4,
+    "default_risk_score": 12,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Kişisel Koruyucu Donanımların İşyerlerinde Kullanılması Yön. Ek-III",
+      "TS EN ISO 20345 (SRC)"
+    ],
+    "corrective_action": "Standart dışı ayakkabılar toplatılmalı, SRC kaymaz tabanlı iş ayakkabısı dağıtılmalıdır.",
+    "document_risk_level": "Kabul Edilemez"
+  },
+  {
+    "id": 54,
+    "no": 54,
+    "category": "6. Kişisel Koruyucu Donanımlar (KKD) ve Hijyen",
+    "area": "KKD & Hijyen",
+    "question": "KKD Teslim-Tesellüm Zimmet Formları çalışanların imzasıyla özlük dosyasında saklanıyor mu?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 3,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Kişisel Koruyucu Donanımların İşyerlerinde Kullanılması Yön. m. 8",
+      "6331 S.K. m. 19"
+    ],
+    "corrective_action": "Tüm verilen KKD'ler için CE belgeli zimmet tutanağı imzalatılmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 55,
+    "no": 55,
+    "category": "6. Kişisel Koruyucu Donanımlar (KKD) ve Hijyen",
+    "area": "KKD & Hijyen",
+    "question": "Bulaşıkhane çalışanlarına su geçirmez önlük ve kaymaz çizme verilmiş midir?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 3,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Kişisel Koruyucu Donanımların İşyerlerinde Kullanılması Yön. Ek-III",
+      "İşyeri Bina ve Eklentilerinde Sağlık Güvenlik Önlemleri Yön. Ek-I"
+    ],
+    "corrective_action": "Bulaşıkhane alanına özel PVC önlük ve kaymaz çizme tedarik edilmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 56,
+    "no": 56,
+    "category": "6. Kişisel Koruyucu Donanımlar (KKD) ve Hijyen",
+    "area": "KKD & Hijyen",
+    "question": "Personel soyunma odalarında temiz ve kirli kıyafetler için çift bölmeli kilitli dolaplar var mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 2,
+    "default_risk_score": 4,
+    "default_risk_level": "Kabul Edilebilir",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "İşyeri Bina ve Eklentilerinde Sağlık Güvenlik Önlemleri Yön. Ek-I m. 52",
+      "Gıda Hijyeni Yönetmeliği Ek-II"
+    ],
+    "corrective_action": "Hijyen şartları gereği çift gözlü personel dolapları temin edilmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 57,
+    "no": 57,
+    "category": "6. Kişisel Koruyucu Donanımlar (KKD) ve Hijyen",
+    "area": "KKD & Hijyen",
+    "question": "Personel tuvaletlerinde ve el yıkama evyelerinde sıvı sabun, kağıt havlu ve dezenfektan mevcut mudur?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 3,
+    "default_risk_score": 9,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "İşyeri Bina ve Eklentilerinde Sağlık Güvenlik Önlemleri Yön. Ek-I m. 55",
+      "Gıda Hijyeni Yönetmeliği Ek-II m. 3"
+    ],
+    "corrective_action": "Eksik sabunluk ve kağıt havlu dispenserleri derhal doldurulmalı ve tamir edilmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 58,
+    "no": 58,
+    "category": "6. Kişisel Koruyucu Donanımlar (KKD) ve Hijyen",
+    "area": "KKD & Hijyen",
+    "question": "Çalışanlar iş sırasında ziynet eşyası, yüzük, saat vb. aksesuarları çıkarmış mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 2,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "Gıda Hijyeni Yönetmeliği Ek-II Bölüm VIII",
+      "5996 Sayılı Kanun"
+    ],
+    "corrective_action": "Mutfak alanına yüzük/saat ile giriş kesinlikle yasaklanmalı, denetim sıklaştırılmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 59,
+    "no": 59,
+    "category": "6. Kişisel Koruyucu Donanımlar (KKD) ve Hijyen",
+    "area": "KKD & Hijyen",
+    "question": "Personel dinlenme alanları temiz, havalandırılabilir ve mutfaktan tecrit edilmiş midir?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 2,
+    "default_risk_score": 4,
+    "default_risk_level": "Kabul Edilebilir",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "İşyeri Bina ve Eklentilerinde Sağlık Güvenlik Önlemleri Yön. Ek-I m. 49"
+    ],
+    "corrective_action": "Dinlenme odasındaki koltuk ve havalandırma bakımları yapılmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 60,
+    "no": 60,
+    "category": "6. Kişisel Koruyucu Donanımlar (KKD) ve Hijyen",
+    "area": "KKD & Hijyen",
+    "question": "Temizlik kimyasalları gıda maddelerinden ayrı kilitli alanda tutulmakta mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 4,
+    "default_risk_score": 12,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "Gıda Hijyeni Yönetmeliği Ek-II Bölüm I",
+      "Kimyasal Maddelerle Çalışmalarda Yön. m. 7"
+    ],
+    "corrective_action": "Mutfaktaki kimyasal kutuları kilitli kimyasal dolabına taşınmalıdır.",
+    "document_risk_level": "Kabul Edilemez"
+  },
+  {
+    "id": 61,
+    "no": 61,
+    "category": "7. Bina, Yapı, Zemin, Kayma-Düşme Riskleri ve Merdivenler",
+    "area": "Zemin & Yapı",
+    "question": "Zeminler düzgün ve güvenli midir?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 4,
+    "default_risk_score": 12,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "İşyeri Bina ve Eklentilerinde Sağlık Güvenlik Önlemleri Yön. Ek-I m. 14"
+    ],
+    "corrective_action": "Kırık seramikler anti-slip epoxy veya yenilenmiş seramikle tamir edilmelidir.",
+    "document_risk_level": "Kabul Edilemez"
+  },
+  {
+    "id": 62,
+    "no": 62,
+    "category": "7. Bina, Yapı, Zemin, Kayma-Düşme Riskleri ve Merdivenler",
+    "area": "Zemin & Yapı",
+    "question": "Islak zemin temizliği sırasında \"KAYGAN ZEMİN\" uyarı konileri kullanılmakta mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 4,
+    "default_severity": 3,
+    "default_risk_score": 12,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "Sağlık ve Güvenlik İşaretleri Yönetmeliği Ek-II",
+      "İşyeri Bina ve Eklentilerinde Sağlık Güvenlik Önlemleri Yön. Ek-I m. 14"
+    ],
+    "corrective_action": "Paspas işlemi esnasında uyarı babaları alanın her iki tarafına yerleştirilmelidir.",
+    "document_risk_level": "Kabul Edilemez"
+  },
+  {
+    "id": 63,
+    "no": 63,
+    "category": "7. Bina, Yapı, Zemin, Kayma-Düşme Riskleri ve Merdivenler",
+    "area": "Zemin & Yapı",
+    "question": "Merdiven basamaklarında kaydırmaz bantlar (anti-slip tape) mevcut ve yıpranmamış mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 3,
+    "default_risk_score": 9,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "İşyeri Bina ve Eklentilerinde Sağlık Güvenlik Önlemleri Yön. Ek-I m. 16"
+    ],
+    "corrective_action": "Yıpranan merdiven kaydırmaz bantları yenileri ile değiştirilmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 64,
+    "no": 64,
+    "category": "7. Bina, Yapı, Zemin, Kayma-Düşme Riskleri ve Merdivenler",
+    "area": "Zemin & Yapı",
+    "question": "Merdivenlerde her iki tarafta veya en az bir tarafta sağlam korkuluk/tutamak var mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 4,
+    "default_risk_score": 8,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "İşyeri Bina ve Eklentilerinde Sağlık Güvenlik Önlemleri Yön. Ek-I m. 16",
+      "Binaların Yangından Korunması Hk. Yön. m. 48"
+    ],
+    "corrective_action": "Gevşek merdiven korkulukları duvara sağlamlaştırılmalı, yükseklik 90 cm olmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 65,
+    "no": 65,
+    "category": "7. Bina, Yapı, Zemin, Kayma-Düşme Riskleri ve Merdivenler",
+    "area": "Zemin & Yapı",
+    "question": "Yüksek raflara ulaşmak için kullanılan Tipi A Taşınabilir Merdivenler standartlara uygun mudur?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 3,
+    "default_risk_score": 9,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "İş Ekipmanlarının Kullanımında Sağlık ve Güvenlik Şartları Yön. Ek-II m. 4.3",
+      "TS EN 131 Standardı"
+    ],
+    "corrective_action": "Plastik/derme çatma sandalyeler toplatılmalı, EN 131 belgeli alüminyum merdiven alınmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 66,
+    "no": 66,
+    "category": "7. Bina, Yapı, Zemin, Kayma-Düşme Riskleri ve Merdivenler",
+    "area": "Zemin & Yapı",
+    "question": "Zemin drenaj kanalları ve ızgaraları zeminle hemzemin ve tıkanıklıksız mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 3,
+    "default_risk_score": 9,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "İşyeri Bina ve Eklentilerinde Sağlık Güvenlik Önlemleri Yön. Ek-I m. 14",
+      "Gıda Hijyeni Yönetmeliği Ek-II"
+    ],
+    "corrective_action": "Kanal ızgara kapakları zemin seviyesine getirilmeli, takılma riski önlenmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 67,
+    "no": 67,
+    "category": "7. Bina, Yapı, Zemin, Kayma-Düşme Riskleri ve Merdivenler",
+    "area": "Zemin & Yapı",
+    "question": "Cam kapı ve geniş cam paneller üzerinde çarpma önleyici göz hizası ikaz şeritleri var mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 2,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "İşyeri Bina ve Eklentilerinde Sağlık Güvenlik Önlemleri Yön. Ek-I m. 13",
+      "Sağlık ve Güvenlik İşaretleri Yönetmeliği Ek-II"
+    ],
+    "corrective_action": "Şeffaf cam kapılara 140 cm yüksekliğinde kurumsal uyarı logosu/şerit yapıştırılmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 68,
+    "no": 68,
+    "category": "7. Bina, Yapı, Zemin, Kayma-Düşme Riskleri ve Merdivenler",
+    "area": "Zemin & Yapı",
+    "question": "Mutfak ve depo tavanları nem, küf, sıva döküntüsü ve su sızıntısından arındırılmış mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 3,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "İşyeri Bina ve Eklentilerinde Sağlık Güvenlik Önlemleri Yön. Ek-I m. 17",
+      "Gıda Hijyeni Yönetmeliği Ek-II Bölüm I"
+    ],
+    "corrective_action": "Tavan su sızıntısı izole edilmeli, hijyenik tavan boyası ile boyanmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 69,
+    "no": 69,
+    "category": "7. Bina, Yapı, Zemin, Kayma-Düşme Riskleri ve Merdivenler",
+    "area": "Zemin & Yapı",
+    "question": "Mağaza yük indirme/bindirme alanında düşme ve çarpma önleyici tedbirler alınmış mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 4,
+    "default_risk_score": 8,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "İşyeri Bina ve Eklentilerinde Sağlık Güvenlik Önlemleri Yön. Ek-I m. 20",
+      "Sağlık ve Güvenlik İşaretleri Yönetmeliği Ek-V"
+    ],
+    "corrective_action": "Mal kabul alanında sarı-siyah ikaz çizgileri çekilmeli, takoz kullanılmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 70,
+    "no": 70,
+    "category": "7. Bina, Yapı, Zemin, Kayma-Düşme Riskleri ve Merdivenler",
+    "area": "Zemin & Yapı",
+    "question": "Asma kat veya yüksek çalışma platformlarında en az 110 cm yüksekliğinde korkuluk var mıdır?",
+    "responsible": "İşveren Vekili",
+    "default_probability": 1,
+    "default_severity": 5,
+    "default_risk_score": 5,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "İşyeri Bina ve Eklentilerinde Sağlık Güvenlik Önlemleri Yön. Ek-I m. 15",
+      "İş Ekipmanlarının Kullanımında Sağlık ve Güvenlik Şartları Yön. Ek-II m. 4.1"
+    ],
+    "corrective_action": "Asma kat açık kenarlarına temelik ve korkuluk sistemi monte edilmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 71,
+    "no": 71,
+    "category": "8. Atık Yönetimi, Kimyasal Güvenlik ve Havalandırma",
+    "area": "Kimyasal & Atık",
+    "question": "Kullanılan tüm temizlik kimyasallarının Türkçe Güvenlik Bilgi Formları (GBF/MSDS) mevcut mudur?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 3,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Kimyasal Maddelerle Çalışmalarda Sağlık Güvenlik Yön. m. 9",
+      "KKDİK Yönetmeliği m. 27"
+    ],
+    "corrective_action": "Tedarikçi firmadan güncel MSDS klasörü istenmeli ve kimyasal deposuna asılmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 72,
+    "no": 72,
+    "category": "8. Atık Yönetimi, Kimyasal Güvenlik ve Havalandırma",
+    "area": "Kimyasal & Atık",
+    "question": "Orijinal ambalajından başka kaplara aktarılan kimyasal şişelerin üzerine etiket yapıştırılmış mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 4,
+    "default_risk_score": 12,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "Kimyasal Maddelerle Çalışmalarda Sağlık Güvenlik Yön. m. 9",
+      "SEA Yönetmeliği"
+    ],
+    "corrective_action": "Etiketsiz sprey şişeleri imha edilmeli, orijinal isim etiketi basılmalıdır.",
+    "document_risk_level": "Kabul Edilemez"
+  },
+  {
+    "id": 73,
+    "no": 73,
+    "category": "8. Atık Yönetimi, Kimyasal Güvenlik ve Havalandırma",
+    "area": "Kimyasal & Atık",
+    "question": "Bitkisel Atık Yağlar özel sızdırmaz depolarda biriktirilip lisanslı firmaya veriliyor mu?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 3,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "3 Ay",
+    "legal_basis": [
+      "Bitkisel Atık Yağların Kontrolü Yönetmeliği m. 9",
+      "2872 Sayılı Çevre Kanunu"
+    ],
+    "corrective_action": "Atık yağ varilleri sızdırmaz tavada tutulmalı, ulusal atık formu arşivlenmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 74,
+    "no": 74,
+    "category": "8. Atık Yönetimi, Kimyasal Güvenlik ve Havalandırma",
+    "area": "Kimyasal & Atık",
+    "question": "Mutfak havalandırma taze hava ve egzoz sistemleri yeterli debide çalışmakta mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 3,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "İşyeri Bina ve Eklentilerinde Sağlık Güvenlik Önlemleri Yön. Ek-I m. 21",
+      "Gıda Hijyeni Yönetmeliği Ek-II"
+    ],
+    "corrective_action": "Havalandırma fan kanalları ve filtreleri periyodik olarak temizletilmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 75,
+    "no": 75,
+    "category": "8. Atık Yönetimi, Kimyasal Güvenlik ve Havalandırma",
+    "area": "Kimyasal & Atık",
+    "question": "Davlumbaz baca ve kanal yağ temizliği yetkili/lisanslı firmaya yaptırılmış mıdır?",
+    "responsible": "İşveren Vekili",
+    "default_probability": 2,
+    "default_severity": 5,
+    "default_risk_score": 10,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "3 Ay",
+    "legal_basis": [
+      "Binaların Yangından Korunması Hk. Yön. m. 57/4"
+    ],
+    "corrective_action": "İtfaiye onaylı yetkili baca temizleme firmasından 6 aylık temizlik raporu alınmalıdır.",
+    "document_risk_level": "Kabul Edilemez"
+  },
+  {
+    "id": 76,
+    "no": 76,
+    "category": "8. Atık Yönetimi, Kimyasal Güvenlik ve Havalandırma",
+    "area": "Kimyasal & Atık",
+    "question": "Kimyasal dökülmelerine karşı nötralize edici \"Kimyasal Döküntü Kiti\" depo alanında var mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 3,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Kimyasal Maddelerle Çalışmalarda Sağlık Güvenlik Yön. m. 7",
+      "6331 S.K. m. 11"
+    ],
+    "corrective_action": "Kimyasal emici ped ve kişisel koruyucu içeren Döküntü Kiti tedarik edilmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 77,
+    "no": 77,
+    "category": "8. Atık Yönetimi, Kimyasal Güvenlik ve Havalandırma",
+    "area": "Kimyasal & Atık",
+    "question": "Atık alanları ve çöp odaları düzenli ilaçlanıp pest kontrolü yapılmakta mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 3,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Biyosidal Ürünlerin Kullanım Usul ve Esasları Hk. Yön. m. 12",
+      "Gıda Hijyeni Yönetmeliği Ek-II"
+    ],
+    "corrective_action": "Lisanslı haşere kontrol firmasından aylık uygulama raporları istenmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 78,
+    "no": 78,
+    "category": "8. Atık Yönetimi, Kimyasal Güvenlik ve Havalandırma",
+    "area": "Kimyasal & Atık",
+    "question": "Gaz tüpleri (LPG, CO2 meşrubat tüpleri) dik konumda zincirle duvara sabitlenmiş midir?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 5,
+    "default_risk_score": 15,
+    "default_risk_level": "Kabul Edilemez",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "Binaların Yangından Korunması Hk. Yön. m. 112",
+      "Binaların Yangından Korunması Hk. Yön. m. 119",
+      "TS EN ISO 11625"
+    ],
+    "corrective_action": "CO2 ve LPG tüpleri zincir ile duvara sabitlenmeli, açıkta tüp bırakılmamalıdır.",
+    "document_risk_level": "Kabul Edilemez"
+  },
+  {
+    "id": 79,
+    "no": 79,
+    "category": "9. İşveren Vekili Denetimi, İlk Yardım ve Müşteri Alanları Güvenliği",
+    "area": "İlk Yardım & Müşteri",
+    "question": "İlk Yardım Dolabı duvara monte, kilitli ve içeriği güncel midir?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 3,
+    "default_risk_score": 9,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "İlkyardım Yönetmeliği m. 19",
+      "İşyeri Bina ve Eklentilerinde Sağlık Güvenlik Önlemleri Yön. Ek-I m. 58"
+    ],
+    "corrective_action": "Son kullanma tarihi geçen ilkyardım malzemeleri yenilenmeli, reçeteli ilaç barındırılmamalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 80,
+    "no": 80,
+    "category": "9. İşveren Vekili Denetimi, İlk Yardım ve Müşteri Alanları Güvenliği",
+    "area": "İlk Yardım & Müşteri",
+    "question": "Müşteri yemek salonunda bebek çocuk sandalyelerinin emniyet kemerleri sağlam mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 3,
+    "default_risk_score": 9,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "Sürekli",
+    "legal_basis": [
+      "6502 Sayılı Tüketicinin Korunması Hk. Kanun m. 55",
+      "7223 Sayılı Ürün Güvenliği ve Teknik Düzenlemeler Kanunu m. 4"
+    ],
+    "corrective_action": "Kemer eksik çocuk sandalyeleri servisten çekilmeli ve kemer bağlantıları yenilenmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 81,
+    "no": 81,
+    "category": "9. İşveren Vekili Denetimi, İlk Yardım ve Müşteri Alanları Güvenliği",
+    "area": "İlk Yardım & Müşteri",
+    "question": "Restoran oyun alanı/playland cihazlarının periyodik güvenlik denetimi yapılmakta mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 4,
+    "default_risk_score": 8,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "7223 Sayılı Ürün Güvenliği ve Teknik Düzenlemeler Kanunu m. 4",
+      "TS EN 1176 Standardı"
+    ],
+    "corrective_action": "Oyun alanı yumuşak zeminleri kontrol edilerek dezenfekte edilmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 82,
+    "no": 82,
+    "category": "9. İşveren Vekili Denetimi, İlk Yardım ve Müşteri Alanları Güvenliği",
+    "area": "İlk Yardım & Müşteri",
+    "question": "Self-servis alanlarında kırılabilir cam malzemeler yerine kırılmaz muhafaza var mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 3,
+    "default_severity": 2,
+    "default_risk_score": 6,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Gıda Hijyeni Yönetmeliği Ek-II Bölüm II",
+      "5996 Sayılı Kanun"
+    ],
+    "corrective_action": "Müşteri temas alanlarındaki pleksiglas koruyucular çatlaklara karşı yenilenmelidir.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 83,
+    "no": 83,
+    "category": "9. İşveren Vekili Denetimi, İlk Yardım ve Müşteri Alanları Güvenliği",
+    "area": "İlk Yardım & Müşteri",
+    "question": "Restoran giriş/çıkış otomatik kayar kapılarının emniyet fotoseli çalışır durumda mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 4,
+    "default_risk_score": 8,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Makine Emniyeti Yönetmeliği Ek-I m. 1.3.8.2",
+      "TS EN 16005 Standardı"
+    ],
+    "corrective_action": "Otomatik kapı alt ve yan engel algılama sensör bakımı yetkili servise yaptırılmalıdır.",
+    "document_risk_level": "Dikkate Değer"
+  },
+  {
+    "id": 84,
+    "no": 84,
+    "category": "9. İşveren Vekili Denetimi, İlk Yardım ve Müşteri Alanları Güvenliği",
+    "area": "İlk Yardım & Müşteri",
+    "question": "Dış mekân kurye motor park ve batarya şarj alanında yangın önlemleri alınmış mıdır?",
+    "responsible": "Restoran Sorumlusu",
+    "default_probability": 2,
+    "default_severity": 5,
+    "default_risk_score": 10,
+    "default_risk_level": "Dikkate Değer",
+    "deadline": "1 Ay",
+    "legal_basis": [
+      "Binaların Yangından Korunması Hk. Yön. m. 68",
+      "Elektrik İç Tesisleri Yönetmeliği m. 51",
+      "6331 S.K. m. 4"
+    ],
+    "corrective_action": "Elektrikli kurye motoru şarj alanına özel yangın söndürücü konulmalı ve hatlar denetlenmelidir.",
+    "document_risk_level": "Kabul Edilemez"
+  }
+]

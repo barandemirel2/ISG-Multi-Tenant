@@ -1,0 +1,53 @@
+name: risk-analiz
+
+services:
+  mongo:
+    image: mongo:7
+    restart: "no"
+    volumes:
+      - mongo_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    restart: "no"
+    environment:
+      MONGO_URL: mongodb://mongo:27017
+      DB_NAME: ${DB_NAME:-risk_analiz}
+      JWT_SECRET: ${JWT_SECRET:?JWT_SECRET gerekli — kök .env dosyasına ekle}
+      JWT_ALGORITHM: ${JWT_ALGORITHM:-HS256}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost}
+      ADMIN_EMAIL: ${ADMIN_EMAIL:?ADMIN_EMAIL gerekli — kök .env dosyasına ekle}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:?ADMIN_PASSWORD gerekli — kök .env dosyasına ekle}
+      COOKIE_SECURE: ${COOKIE_SECURE:?COOKIE_SECURE gerekli — kök .env dosyasına ekle (true|false)}
+      COOKIE_SAMESITE: ${COOKIE_SAMESITE:?COOKIE_SAMESITE gerekli — kök .env dosyasına ekle (lax|strict|none)}
+    depends_on:
+      mongo:
+        condition: service_healthy
+    volumes:
+      - uploads_data:/app/uploads
+    command: ["uvicorn", "server:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "2"]
+
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        REACT_APP_BACKEND_URL: /api
+    restart: "no"
+    depends_on:
+      - backend
+    ports:
+      - "80:80"
+
+volumes:
+  mongo_data:
+  uploads_data:

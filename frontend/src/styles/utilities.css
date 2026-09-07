@@ -1,0 +1,99 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   utilities.css — Token-driven utility classes (master prompt compliance)
+   ─────────────────────────────────────────────────────────────────────────
+   Master prompt §2: "Monospace strictly reserved for regulatory codes and
+   numeric risk scores." Bu utility'ler hardcoded font-mono kullanımını
+   kasıtlı hale getirir.
+
+   Master prompt §3 (SCREEN 2): Risk Score badge "25 Puan - Kabul Edilemez"
+   → MonoData + risk-critical.
+
+   Master prompt §3 (SCREEN 2): "Binaların Yangından Korunması Hk. Yön. m. 99"
+   → MonoLegal.
+
+   NOT: @layer utilities sarmalayıcısı YOK. PostCSS + Tailwind sıralamasında
+   @import direktifi @tailwind'den sonra gelirse `@layer utilities` hata
+   veriyor. Class'lar zaten global scope'a yazılır; layer gerekmiyor.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* Numeric risk scores, deadlines, counters */
+.numeric,
+.MonoData {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+/* Legal/regulatory code references (e.g. "6331 S.K. m. 30") */
+.MonoLegal {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0;
+  color: var(--ink-secondary);
+  padding: 1px 6px;
+  background: var(--risk-info-bg);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-xs);
+  display: inline-block;
+  line-height: 1.4;
+}
+
+/* Risk pill — combined badge with semantic color */
+.risk-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+  border: 1px solid transparent;
+}
+.risk-pill-critical {
+  color: var(--risk-critical);
+  background: var(--risk-critical-bg);
+  border-color: var(--risk-critical-border);
+}
+.risk-pill-moderate {
+  color: var(--risk-moderate);
+  background: var(--risk-moderate-bg);
+  border-color: var(--risk-moderate-border);
+}
+.risk-pill-compliant {
+  color: var(--risk-compliant);
+  background: var(--risk-compliant-bg);
+  border-color: var(--risk-compliant-border);
+}
+
+/* Card surface — replaces bg-white/5 + backdrop-blur + gradient patterns */
+.surface-card {
+  background: var(--surface-card);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-card);
+}
+.surface-card-elevated {
+  background: var(--surface-card-2);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-elevated);
+}
+
+/* Control — input, button base */
+.control {
+  background: var(--surface-card);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-control);
+}
+.control:focus-visible {
+  border-color: var(--border-focus);
+  outline: 2px solid var(--border-focus);
+  outline-offset: 1px;
+}
+
+/* Density presets — row height per use case */
+.density-form   { min-height: var(--row-height-form); }
+.density-table  { min-height: var(--row-height-table); }
+.density-dense  { min-height: var(--row-height-dense); }

@@ -1,0 +1,10 @@
+/* App-specific styles */
+.App {
+    min-height: 100vh;
+    background: #FAFAFA;
+}
+
+/* Zebra striping for question rows */
+.q-row:nth-child(even) {
+    background-color: rgba(244, 244, 245, 0.5);
+}
